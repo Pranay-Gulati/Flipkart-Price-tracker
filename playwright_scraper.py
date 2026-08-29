@@ -13,6 +13,7 @@ import os
 import random
 import re
 import time
+import json
 import logging
 
 # ---------------------------------------------------------------------------
@@ -29,11 +30,11 @@ LOG_FILE = "scrape_log.txt"
 # the browser, and update ONLY this block — nothing else needs to change.
 # ---------------------------------------------------------------------------
 SELECTORS = {
-    "title": "h1.v1zwn21n.v1zwn27",
-    "price": "div.v1zwn21n.v1zwn20",
-    "mrp": "div.v1zwn21o.v1zwn21",
-    "discount_percent": "div.v1zwn222.v1zwn20",
-    "stock_status": "div.v1zwn221.v1zwn29",
+    "title": "h1.v1zwn21m.v1zwn26",
+    "price": "div.v1zwn21m.v1zwn20",
+    "mrp": "div.v1zwn21n.v1zwn21",
+    "discount_percent": "div.v1zwn221.v1zwn20",
+    "stock_status": "div.v1zwn220.v1zwn28",
     "bank_offer_price": "div.css-146c3p1.r-dnmrzs.r-1udh08x.r-1udbk01.r-3s2u2q.r-1iln25a",
 }
 
@@ -50,7 +51,7 @@ DEFAULT_STOCK_STATUS = "In stock / not shown"
 # Fields every scraped row must have — keeps success/failure rows consistent
 ROW_FIELDS = [
     "timestamp", "product_name", "sp", "mrp", "discount_percent", "rating",
-    "stock_status_text", "bank_offer_price", "url", "scrape_failed",
+    "stock_status_text", "bank_offer_price", "url",
 ]
 
 logging.basicConfig(
@@ -92,6 +93,22 @@ def get_valid_bank_offer(page, selector):
     return None
 
 
+def extract_jsonld(page):
+    """Flipkart embeds structured product data as JSON-LD (meant for Google
+    Shopping/rich snippets), which is far more stable than CSS classes since
+    it rarely changes structure. Returns the product dict if found, else None."""
+    for script in page.query_selector_all('script[type="application/ld+json"]'):
+        try:
+            data = json.loads(script.inner_text())
+        except (json.JSONDecodeError, TypeError):
+            continue
+        items = data if isinstance(data, list) else [data]
+        for item in items:
+            if isinstance(item, dict) and "offers" in item:
+                return item
+    return None
+
+
 def empty_row(url, scrape_failed=False):
     """A row with every expected field set to None — used on total scrape failure."""
     row = {field: None for field in ROW_FIELDS}
@@ -106,13 +123,31 @@ def scrape_flipkart_product(page, url):
     page.goto(url, timeout=PAGE_LOAD_TIMEOUT_MS)
     page.wait_for_timeout(POST_LOAD_WAIT_MS)
 
+    jsonld = extract_jsonld(page)
+
+    # Title, price, and rating are pulled from JSON-LD when available — it's
+    # structured data meant for search engines, so it's far less likely to
+    # break than CSS classes. Fall back to CSS selectors if JSON-LD is missing
+    # or a field isn't present in it.
+    if jsonld:
+        title = jsonld.get("name") or get_text(page, SELECTORS["title"])
+        price = jsonld.get("offers", {}).get("price")
+        price = f"₹ {price}" if price else get_text(page, SELECTORS["price"])
+        rating_value = jsonld.get("aggregateRating", {}).get("ratingValue")
+        rating = str(rating_value) if rating_value else find_rating(page)
+    else:
+        logging.warning(f"No JSON-LD found for {url[:60]}... falling back to CSS selectors")
+        title = get_text(page, SELECTORS["title"])
+        price = get_text(page, SELECTORS["price"])
+        rating = find_rating(page)
+
     return {
         "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-        "product_name": get_text(page, SELECTORS["title"]),
-        "sp": get_text(page, SELECTORS["price"]),
+        "product_name": title,
+        "sp": price,
         "mrp": get_text(page, SELECTORS["mrp"]),
         "discount_percent": get_text(page, SELECTORS["discount_percent"]),
-        "rating": find_rating(page),
+        "rating": rating,
         "stock_status_text": get_text(page, SELECTORS["stock_status"], DEFAULT_STOCK_STATUS),
         "bank_offer_price": get_valid_bank_offer(page, SELECTORS["bank_offer_price"]),
         "url": url,
@@ -124,9 +159,8 @@ def scrape_with_retry(page, url, max_retries=MAX_RETRIES_PER_PRODUCT):
     for attempt in range(max_retries + 1):
         try:
             data = scrape_flipkart_product(page, url)
-            if not data["product_name"] or not data["sp"]:
-                raise ValueError("Empty title or price — selectors may be broken")
-            data["scrape_failed"] = False
+            if not data["product_name"] and not data["sp"]:
+                raise ValueError("Empty title and price — selectors may be broken")
             return data
         except Exception as e:
             logging.warning(f"Attempt {attempt+1} failed for {url[:60]}... | {e}")
@@ -143,6 +177,14 @@ def main():
         return
 
     products = pd.read_csv(PRODUCTS_CSV, encoding="utf-8-sig", encoding_errors="replace")
+
+    # Catch leftover TODO placeholders before wasting a scrape run on them
+    todo_rows = products[products["url"].astype(str).str.contains("TODO", na=False)]
+    if len(todo_rows) > 0:
+        logging.warning(
+            f"{len(todo_rows)} product(s) still have TODO_URL — skipping those, fill them in when ready."
+        )
+        products = products[~products["url"].astype(str).str.contains("TODO", na=False)]
 
     logging.info(f"Starting scrape run for {len(products)} products.")
 
