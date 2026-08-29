@@ -9,12 +9,15 @@ Every run is independent — safe to re-run if it crashes partway.
 from playwright.sync_api import sync_playwright
 import pandas as pd
 from datetime import datetime
+from zoneinfo import ZoneInfo
 import os
 import random
 import re
 import time
 import json
 import logging
+
+IST = ZoneInfo("Asia/Kolkata")
 
 # ---------------------------------------------------------------------------
 # File paths
@@ -115,7 +118,7 @@ def extract_jsonld(page):
 def empty_row(url, scrape_failed=False):
     """A row with every expected field set to None — used on total scrape failure."""
     row = {field: None for field in ROW_FIELDS}
-    row["timestamp"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    row["timestamp"] = datetime.now(IST).strftime("%Y-%m-%d %H:%M:%S")
     row["url"] = url
     if scrape_failed:
         row["scrape_failed"] = True
@@ -145,7 +148,7 @@ def scrape_flipkart_product(page, url):
         rating = find_rating(page)
 
     return {
-        "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "timestamp": datetime.now(IST).strftime("%Y-%m-%d %H:%M:%S"),
         "product_name": title,
         "sp": price,
         "mrp": get_text(page, SELECTORS["mrp"]),
