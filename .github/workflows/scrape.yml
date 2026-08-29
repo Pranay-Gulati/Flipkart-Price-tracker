@@ -1,17 +1,15 @@
 name: Flipkart Scraper
 
-# Runs 3x/day (times below are in UTC — IST is UTC+5:30):
-#   18:30 UTC = 12:00 AM IST (midnight)
-#   02:30 UTC = 8:00 AM IST
-#   10:30 UTC = 4:00 PM IST
-# GitHub's scheduler can run a few minutes late during busy periods — that's normal.
+# Scheduling is handled externally via cron-job.org, which pings the
+# GitHub API to trigger workflow_dispatch at 12am/8am/4pm IST — this is
+# because GitHub's own native `schedule:` trigger is documented as
+# "best effort" and was found to be unreliable for a newly-created workflow
+# (delayed or skipped entirely, especially in the first day or two).
+# Do NOT re-add a `schedule:` block here — if GitHub's native scheduler
+# later self-resolves, it would fire ALONGSIDE the external trigger and
+# produce duplicate rows at the same timestamp.
 on:
-  schedule:
-    - cron: '30 18 * * *'
-    - cron: '30 2 * * *'
-    - cron: '30 10 * * *'
-    
-  workflow_dispatch:   # lets you manually trigger a run from the GitHub Actions tab, for testing
+  workflow_dispatch:   # triggered externally by cron-job.org, or manually from the Actions tab
 
 permissions:
   contents: write   # needed so the workflow can commit the updated CSV back to the repo
