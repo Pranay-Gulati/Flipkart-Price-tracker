@@ -1,6 +1,6 @@
 """
 Flipkart price scraper — reads product list from products.csv,
-scrapes each one, appends to flipkart_data_v2.csv.
+scrapes each one, appends to flipkart_data.csv.
 
 Run this daily (or 3x/day) via a scheduler (cron / Task Scheduler).
 Every run is independent — safe to re-run if it crashes partway.
@@ -24,17 +24,20 @@ OUTPUT_CSV = "flipkart_data.csv"
 LOG_FILE = "scrape_log.txt"
 
 # ---------------------------------------------------------------------------
-# CSS selectors — Flipkart auto-generates these hashed class names and they
-# CAN change without warning on any redeploy. If the scraper starts failing
-# on every product again, re-run debug_selectors.py, inspect an element in
-# the browser, and update ONLY this block — nothing else needs to change.
+# CSS selectors — used as a FALLBACK for title/price/rating (primary source is
+# now JSON-LD, see extract_jsonld below), and as the ONLY source for mrp,
+# discount_percent, stock_status, bank_offer_price (not present in JSON-LD).
+# Flipkart auto-generates these hashed class names and they CAN change without
+# warning on any redeploy. If mrp/discount/stock/bank-offer start failing,
+# re-run debug_selectors.py, inspect an element in the browser, and update
+# ONLY this block — nothing else needs to change.
 # ---------------------------------------------------------------------------
 SELECTORS = {
-    "title": "h1.v1zwn21m.v1zwn26",
-    "price": "div.v1zwn21m.v1zwn20",
-    "mrp": "div.v1zwn21n.v1zwn21",
-    "discount_percent": "div.v1zwn221.v1zwn20",
-    "stock_status": "div.v1zwn220.v1zwn28",
+    "title": "h1.v1zwn21n.v1zwn27",
+    "price": "div.v1zwn21n.v1zwn20",
+    "mrp": "div.v1zwn21o.v1zwn21",
+    "discount_percent": "div.v1zwn222.v1zwn20",
+    "stock_status": "div.v1zwn221.v1zwn29",
     "bank_offer_price": "div.css-146c3p1.r-dnmrzs.r-1udh08x.r-1udbk01.r-3s2u2q.r-1iln25a",
 }
 
@@ -51,7 +54,7 @@ DEFAULT_STOCK_STATUS = "In stock / not shown"
 # Fields every scraped row must have — keeps success/failure rows consistent
 ROW_FIELDS = [
     "timestamp", "product_name", "sp", "mrp", "discount_percent", "rating",
-    "stock_status_text", "bank_offer_price", "url",
+    "stock_status_text", "bank_offer_price", "url", "scrape_failed",
 ]
 
 logging.basicConfig(
@@ -159,8 +162,9 @@ def scrape_with_retry(page, url, max_retries=MAX_RETRIES_PER_PRODUCT):
     for attempt in range(max_retries + 1):
         try:
             data = scrape_flipkart_product(page, url)
-            if not data["product_name"] and not data["sp"]:
-                raise ValueError("Empty title and price — selectors may be broken")
+            if not data["product_name"] or not data["sp"]:
+                raise ValueError("Empty title or price — selectors may be broken")
+            data["scrape_failed"] = False
             return data
         except Exception as e:
             logging.warning(f"Attempt {attempt+1} failed for {url[:60]}... | {e}")
@@ -177,14 +181,6 @@ def main():
         return
 
     products = pd.read_csv(PRODUCTS_CSV, encoding="utf-8-sig", encoding_errors="replace")
-
-    # Catch leftover TODO placeholders before wasting a scrape run on them
-    todo_rows = products[products["url"].astype(str).str.contains("TODO", na=False)]
-    if len(todo_rows) > 0:
-        logging.warning(
-            f"{len(todo_rows)} product(s) still have TODO_URL — skipping those, fill them in when ready."
-        )
-        products = products[~products["url"].astype(str).str.contains("TODO", na=False)]
 
     logging.info(f"Starting scrape run for {len(products)} products.")
 
