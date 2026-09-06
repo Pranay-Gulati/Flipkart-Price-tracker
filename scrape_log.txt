@@ -2159,3 +2159,171 @@ Hisense 139 cm (55 inch) Ult...
 2026-09-05 18:39:24,551 | INFO | Scraping [40] DOVE Nourishing Triple Hydration Serum B...
 2026-09-05 18:39:37,505 | WARNING | 2 product(s) failed to scrape this run: [4, 12]
 2026-09-05 18:39:37,507 | INFO | Done. 40 rows saved to flipkart_data.csv (38 succeeded, 2 failed).
+2026-09-06 02:31:00,475 | INFO | Starting scrape run for 40 products.
+2026-09-06 02:31:01,462 | INFO | Scraping [1] Samsung Galaxy S25 Ultra...
+2026-09-06 02:32:01,467 | WARNING | Attempt 1 failed for https://www.flipkart.com/samsung-galaxy-s25-ultra-5g-titaniu... | Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://www.flipkart.com/samsung-galaxy-s25-ultra-5g-titanium-silverblue-256-gb/p/itm413a5c3f30151?pid=MOBH8K8U5FWQWD6G&marketplace=FLIPKART&lid=LSTMOBH8K8U5FWQWD6G2VMUV0&q=samsung+s25+ultra+5g&fm=organic&pageUID=1785904767895", waiting until "load"
+
+2026-09-06 02:33:07,131 | WARNING | Attempt 2 failed for https://www.flipkart.com/samsung-galaxy-s25-ultra-5g-titaniu... | Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://www.flipkart.com/samsung-galaxy-s25-ultra-5g-titanium-silverblue-256-gb/p/itm413a5c3f30151?pid=MOBH8K8U5FWQWD6G&marketplace=FLIPKART&lid=LSTMOBH8K8U5FWQWD6G2VMUV0&q=samsung+s25+ultra+5g&fm=organic&pageUID=1785904767895", waiting until "load"
+
+2026-09-06 02:33:14,525 | WARNING | Attempt 3 failed for https://www.flipkart.com/samsung-galaxy-s25-ultra-5g-titaniu... | Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.flipkart.com/samsung-galaxy-s25-ultra-5g-titanium-silverblue-256-gb/p/itm413a5c3f30151?pid=MOBH8K8U5FWQWD6G&marketplace=FLIPKART&lid=LSTMOBH8K8U5FWQWD6G2VMUV0&q=samsung+s25+ultra+5g&fm=organic&pageUID=1785904767895
+Call log:
+  - navigating to "https://www.flipkart.com/samsung-galaxy-s25-ultra-5g-titanium-silverblue-256-gb/p/itm413a5c3f30151?pid=MOBH8K8U5FWQWD6G&marketplace=FLIPKART&lid=LSTMOBH8K8U5FWQWD6G2VMUV0&q=samsung+s25+ultra+5g&fm=organic&pageUID=1785904767895", waiting until "load"
+
+2026-09-06 02:33:14,525 | ERROR | Giving up on https://www.flipkart.com/samsung-galaxy-s25-ultra-5g-titaniu... after 3 attempts
+2026-09-06 02:33:17,734 | INFO | Scraping [2] Apple iPhone 17 Pro Max...
+2026-09-06 02:34:17,737 | WARNING | Attempt 1 failed for https://www.flipkart.com/apple-iphone-17-pro-max-cosmic-oran... | Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://www.flipkart.com/apple-iphone-17-pro-max-cosmic-orange-512-gb/p/itm9610ba7d9c887?pid=MOBHFN6YGCTS2WGA&lid=LSTMOBHFN6YGCTS2WGATTPXFJ&hl_lid=&marketplace=FLIPKART&fm=eyJ3dHAiOiJwbXVfdjIiLCJwcnB0IjoiaHAiLCJtaWQiOiJjb250aW51dW0vaHAifQ%3D%3D&pageUID=1785902337167", waiting until "load"
+
+2026-09-06 02:35:27,166 | WARNING | Attempt 2 failed for https://www.flipkart.com/apple-iphone-17-pro-max-cosmic-oran... | Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://www.flipkart.com/apple-iphone-17-pro-max-cosmic-orange-512-gb/p/itm9610ba7d9c887?pid=MOBHFN6YGCTS2WGA&lid=LSTMOBHFN6YGCTS2WGATTPXFJ&hl_lid=&marketplace=FLIPKART&fm=eyJ3dHAiOiJwbXVfdjIiLCJwcnB0IjoiaHAiLCJtaWQiOiJjb250aW51dW0vaHAifQ%3D%3D&pageUID=1785902337167", waiting until "load"
+
+2026-09-06 02:35:33,788 | WARNING | Attempt 3 failed for https://www.flipkart.com/apple-iphone-17-pro-max-cosmic-oran... | Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.flipkart.com/apple-iphone-17-pro-max-cosmic-orange-512-gb/p/itm9610ba7d9c887?pid=MOBHFN6YGCTS2WGA&lid=LSTMOBHFN6YGCTS2WGATTPXFJ&hl_lid=&marketplace=FLIPKART&fm=eyJ3dHAiOiJwbXVfdjIiLCJwcnB0IjoiaHAiLCJtaWQiOiJjb250aW51dW0vaHAifQ%3D%3D&pageUID=1785902337167
+Call log:
+  - navigating to "https://www.flipkart.com/apple-iphone-17-pro-max-cosmic-orange-512-gb/p/itm9610ba7d9c887?pid=MOBHFN6YGCTS2WGA&lid=LSTMOBHFN6YGCTS2WGATTPXFJ&hl_lid=&marketplace=FLIPKART&fm=eyJ3dHAiOiJwbXVfdjIiLCJwcnB0IjoiaHAiLCJtaWQiOiJjb250aW51dW0vaHAifQ%3D%3D&pageUID=1785902337167", waiting until "load"
+
+2026-09-06 02:35:33,788 | ERROR | Giving up on https://www.flipkart.com/apple-iphone-17-pro-max-cosmic-oran... after 3 attempts
+2026-09-06 02:35:37,914 | INFO | Scraping [3] OnePlus Nord 6 5G...
+2026-09-06 02:36:37,920 | WARNING | Attempt 1 failed for https://www.flipkart.com/oneplus-nord-6-quick-silver-256-gb/... | Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://www.flipkart.com/oneplus-nord-6-quick-silver-256-gb/p/itmc49f71cdc4080?pid=MOBHMBXCPZNQ3YNC&lid=LSTMOBHMBXCPZNQ3YNCK63NEJ&marketplace=FLIPKART", waiting until "load"
+
+2026-09-06 02:37:47,262 | WARNING | Attempt 2 failed for https://www.flipkart.com/oneplus-nord-6-quick-silver-256-gb/... | Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://www.flipkart.com/oneplus-nord-6-quick-silver-256-gb/p/itmc49f71cdc4080?pid=MOBHMBXCPZNQ3YNC&lid=LSTMOBHMBXCPZNQ3YNCK63NEJ&marketplace=FLIPKART", waiting until "load"
+
+2026-09-06 02:38:56,280 | WARNING | Attempt 3 failed for https://www.flipkart.com/oneplus-nord-6-quick-silver-256-gb/... | Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://www.flipkart.com/oneplus-nord-6-quick-silver-256-gb/p/itmc49f71cdc4080?pid=MOBHMBXCPZNQ3YNC&lid=LSTMOBHMBXCPZNQ3YNCK63NEJ&marketplace=FLIPKART", waiting until "load"
+
+2026-09-06 02:38:56,280 | ERROR | Giving up on https://www.flipkart.com/oneplus-nord-6-quick-silver-256-gb/... after 3 attempts
+2026-09-06 02:39:03,141 | INFO | Scraping [4] Samsung Galaxy M47 5G...
+2026-09-06 02:40:03,148 | WARNING | Attempt 1 failed for https://www.flipkart.com/samsung-m47-5g-blaze-blue-128-gb/p/... | Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://www.flipkart.com/samsung-m47-5g-blaze-blue-128-gb/p/itmed5389226b408?pid=MOBHZWBVT3NUCCPP&lid=LSTMOBHZWBVT3NUCCPPAHKSJU&marketplace=FLIPKART", waiting until "load"
+
+2026-09-06 02:40:12,316 | WARNING | Attempt 2 failed for https://www.flipkart.com/samsung-m47-5g-blaze-blue-128-gb/p/... | Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.flipkart.com/samsung-m47-5g-blaze-blue-128-gb/p/itmed5389226b408?pid=MOBHZWBVT3NUCCPP&lid=LSTMOBHZWBVT3NUCCPPAHKSJU&marketplace=FLIPKART
+Call log:
+  - navigating to "https://www.flipkart.com/samsung-m47-5g-blaze-blue-128-gb/p/itmed5389226b408?pid=MOBHZWBVT3NUCCPP&lid=LSTMOBHZWBVT3NUCCPPAHKSJU&marketplace=FLIPKART", waiting until "load"
+
+2026-09-06 02:41:17,852 | WARNING | Attempt 3 failed for https://www.flipkart.com/samsung-m47-5g-blaze-blue-128-gb/p/... | Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.flipkart.com/samsung-m47-5g-blaze-blue-128-gb/p/itmed5389226b408?pid=MOBHZWBVT3NUCCPP&lid=LSTMOBHZWBVT3NUCCPPAHKSJU&marketplace=FLIPKART
+Call log:
+  - navigating to "https://www.flipkart.com/samsung-m47-5g-blaze-blue-128-gb/p/itmed5389226b408?pid=MOBHZWBVT3NUCCPP&lid=LSTMOBHZWBVT3NUCCPPAHKSJU&marketplace=FLIPKART", waiting until "load"
+
+2026-09-06 02:41:17,853 | ERROR | Giving up on https://www.flipkart.com/samsung-m47-5g-blaze-blue-128-gb/p/... after 3 attempts
+2026-09-06 02:41:23,205 | INFO | Scraping [5] Vivo X200t...
+2026-09-06 02:42:23,207 | WARNING | Attempt 1 failed for https://www.flipkart.com/vivo-x200t-seaside-lilac-512-gb/p/i... | Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://www.flipkart.com/vivo-x200t-seaside-lilac-512-gb/p/itm1b8452d68859b?pid=MOBHJK5MSMEHG5XS&lid=LSTMOBHJK5MSMEHG5XSJDE1VZ&marketplace=FLIPKART", waiting until "load"
+
+2026-09-06 02:42:35,676 | WARNING | Attempt 2 failed for https://www.flipkart.com/vivo-x200t-seaside-lilac-512-gb/p/i... | Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.flipkart.com/vivo-x200t-seaside-lilac-512-gb/p/itm1b8452d68859b?pid=MOBHJK5MSMEHG5XS&lid=LSTMOBHJK5MSMEHG5XSJDE1VZ&marketplace=FLIPKART
+Call log:
+  - navigating to "https://www.flipkart.com/vivo-x200t-seaside-lilac-512-gb/p/itm1b8452d68859b?pid=MOBHJK5MSMEHG5XS&lid=LSTMOBHJK5MSMEHG5XSJDE1VZ&marketplace=FLIPKART", waiting until "load"
+
+2026-09-06 02:43:37,117 | WARNING | Attempt 3 failed for https://www.flipkart.com/vivo-x200t-seaside-lilac-512-gb/p/i... | Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.flipkart.com/vivo-x200t-seaside-lilac-512-gb/p/itm1b8452d68859b?pid=MOBHJK5MSMEHG5XS&lid=LSTMOBHJK5MSMEHG5XSJDE1VZ&marketplace=FLIPKART
+Call log:
+  - navigating to "https://www.flipkart.com/vivo-x200t-seaside-lilac-512-gb/p/itm1b8452d68859b?pid=MOBHJK5MSMEHG5XS&lid=LSTMOBHJK5MSMEHG5XSJDE1VZ&marketplace=FLIPKART", waiting until "load"
+
+2026-09-06 02:43:37,117 | ERROR | Giving up on https://www.flipkart.com/vivo-x200t-seaside-lilac-512-gb/p/i... after 3 attempts
+2026-09-06 02:43:42,831 | INFO | Scraping [6] Motorola Edge 70 Pro...
+2026-09-06 02:44:42,652 | WARNING | Attempt 1 failed for https://www.flipkart.com/motorola-edge-70-pro-marble-pantone... | Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.flipkart.com/motorola-edge-70-pro-marble-pantone-lily-white-white-256-gb/p/itmb8ecc42418420?pid=MOBHN9739XAPWTP3&marketplace=FLIPKART&lid=LSTMOBHN9739XAPWTP3GCQCKH&pageUID=1787289482819
+Call log:
+  - navigating to "https://www.flipkart.com/motorola-edge-70-pro-marble-pantone-lily-white-white-256-gb/p/itmb8ecc42418420?pid=MOBHN9739XAPWTP3&marketplace=FLIPKART&lid=LSTMOBHN9739XAPWTP3GCQCKH&pageUID=1787289482819", waiting until "load"
+
+2026-09-06 02:44:59,036 | WARNING | Attempt 2 failed for https://www.flipkart.com/motorola-edge-70-pro-marble-pantone... | Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.flipkart.com/motorola-edge-70-pro-marble-pantone-lily-white-white-256-gb/p/itmb8ecc42418420?pid=MOBHN9739XAPWTP3&marketplace=FLIPKART&lid=LSTMOBHN9739XAPWTP3GCQCKH&pageUID=1787289482819
+Call log:
+  - navigating to "https://www.flipkart.com/motorola-edge-70-pro-marble-pantone-lily-white-white-256-gb/p/itmb8ecc42418420?pid=MOBHN9739XAPWTP3&marketplace=FLIPKART&lid=LSTMOBHN9739XAPWTP3GCQCKH&pageUID=1787289482819", waiting until "load"
+
+2026-09-06 02:45:56,381 | WARNING | Attempt 3 failed for https://www.flipkart.com/motorola-edge-70-pro-marble-pantone... | Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.flipkart.com/motorola-edge-70-pro-marble-pantone-lily-white-white-256-gb/p/itmb8ecc42418420?pid=MOBHN9739XAPWTP3&marketplace=FLIPKART&lid=LSTMOBHN9739XAPWTP3GCQCKH&pageUID=1787289482819
+Call log:
+  - navigating to "https://www.flipkart.com/motorola-edge-70-pro-marble-pantone-lily-white-white-256-gb/p/itmb8ecc42418420?pid=MOBHN9739XAPWTP3&marketplace=FLIPKART&lid=LSTMOBHN9739XAPWTP3GCQCKH&pageUID=1787289482819", waiting until "load"
+
+2026-09-06 02:45:56,381 | ERROR | Giving up on https://www.flipkart.com/motorola-edge-70-pro-marble-pantone... after 3 attempts
+2026-09-06 02:46:00,553 | INFO | Scraping [7] Realme P4 Lite 5G...
+2026-09-06 02:47:00,557 | WARNING | Attempt 1 failed for https://www.flipkart.com/realme-p4-lite-5g-mosaic-green-128-... | Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://www.flipkart.com/realme-p4-lite-5g-mosaic-green-128-gb/p/itm90c243961f214?pid=MOBHN7A8YFWPC9ZV&marketplace=FLIPKART&lid=LSTMOBHN7A8YFWPC9ZVEJ5AZE&pageUID=1787289522754", waiting until "load"
+
+2026-09-06 02:47:22,397 | WARNING | Attempt 2 failed for https://www.flipkart.com/realme-p4-lite-5g-mosaic-green-128-... | Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.flipkart.com/realme-p4-lite-5g-mosaic-green-128-gb/p/itm90c243961f214?pid=MOBHN7A8YFWPC9ZV&marketplace=FLIPKART&lid=LSTMOBHN7A8YFWPC9ZVEJ5AZE&pageUID=1787289522754
+Call log:
+  - navigating to "https://www.flipkart.com/realme-p4-lite-5g-mosaic-green-128-gb/p/itm90c243961f214?pid=MOBHN7A8YFWPC9ZV&marketplace=FLIPKART&lid=LSTMOBHN7A8YFWPC9ZVEJ5AZE&pageUID=1787289522754", waiting until "load"
+
+2026-09-06 02:48:15,645 | WARNING | Attempt 3 failed for https://www.flipkart.com/realme-p4-lite-5g-mosaic-green-128-... | Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.flipkart.com/realme-p4-lite-5g-mosaic-green-128-gb/p/itm90c243961f214?pid=MOBHN7A8YFWPC9ZV&marketplace=FLIPKART&lid=LSTMOBHN7A8YFWPC9ZVEJ5AZE&pageUID=1787289522754
+Call log:
+  - navigating to "https://www.flipkart.com/realme-p4-lite-5g-mosaic-green-128-gb/p/itm90c243961f214?pid=MOBHN7A8YFWPC9ZV&marketplace=FLIPKART&lid=LSTMOBHN7A8YFWPC9ZVEJ5AZE&pageUID=1787289522754", waiting until "load"
+
+2026-09-06 02:48:15,645 | ERROR | Giving up on https://www.flipkart.com/realme-p4-lite-5g-mosaic-green-128-... after 3 attempts
+2026-09-06 02:48:21,678 | INFO | Scraping [8] HP Omen AI Ryzen 7 Gaming Laptop...
+2026-09-06 02:49:21,181 | WARNING | Attempt 1 failed for https://www.flipkart.com/hp-omen-ai-amd-ryzen-7-octa-core-35... | Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.flipkart.com/hp-omen-ai-amd-ryzen-7-octa-core-350-24-gb-1-tb-ssd-windows-11-home-8-gb-graphics-nvidia-geforce-rtx-5050-16-ap0165ax-gaming-laptop/p/itm5661c90728083?pid=COMHEHHXKFQSABXZ&lid=LSTCOMHEHHXKFQSABXZEF3JCN&marketplace=FLIPKART&q=gaming+laptops&store=4rr%2Ftz1&srno=s_1_10&otracker=search&otracker1=search&fm=organic&iid=f7f98126-3b51-4834-9b23-e151359fa753.COMHEHHXKFQSABXZ.SEARCH&ppt=None&ppn=None&ssid=mv85fesen40000001786011350999&qH=a5acd8458468e203&ov_redirect=true
+Call log:
+  - navigating to "https://www.flipkart.com/hp-omen-ai-amd-ryzen-7-octa-core-350-24-gb-1-tb-ssd-windows-11-home-8-gb-graphics-nvidia-geforce-rtx-5050-16-ap0165ax-gaming-laptop/p/itm5661c90728083?pid=COMHEHHXKFQSABXZ&lid=LSTCOMHEHHXKFQSABXZEF3JCN&marketplace=FLIPKART&q=gaming+laptops&store=4rr%2Ftz1&srno=s_1_10&otracker=search&otracker1=search&fm=organic&iid=f7f98126-3b51-4834-9b23-e151359fa753.COMHEHHXKFQSABXZ.SEARCH&ppt=None&ppn=None&ssid=mv85fesen40000001786011350999&qH=a5acd8458468e203&ov_redirect=true", waiting until "load"
+
+2026-09-06 02:49:45,757 | WARNING | Attempt 2 failed for https://www.flipkart.com/hp-omen-ai-amd-ryzen-7-octa-core-35... | Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.flipkart.com/hp-omen-ai-amd-ryzen-7-octa-core-350-24-gb-1-tb-ssd-windows-11-home-8-gb-graphics-nvidia-geforce-rtx-5050-16-ap0165ax-gaming-laptop/p/itm5661c90728083?pid=COMHEHHXKFQSABXZ&lid=LSTCOMHEHHXKFQSABXZEF3JCN&marketplace=FLIPKART&q=gaming+laptops&store=4rr%2Ftz1&srno=s_1_10&otracker=search&otracker1=search&fm=organic&iid=f7f98126-3b51-4834-9b23-e151359fa753.COMHEHHXKFQSABXZ.SEARCH&ppt=None&ppn=None&ssid=mv85fesen40000001786011350999&qH=a5acd8458468e203&ov_redirect=true
+Call log:
+  - navigating to "https://www.flipkart.com/hp-omen-ai-amd-ryzen-7-octa-core-350-24-gb-1-tb-ssd-windows-11-home-8-gb-graphics-nvidia-geforce-rtx-5050-16-ap0165ax-gaming-laptop/p/itm5661c90728083?pid=COMHEHHXKFQSABXZ&lid=LSTCOMHEHHXKFQSABXZEF3JCN&marketplace=FLIPKART&q=gaming+laptops&store=4rr%2Ftz1&srno=s_1_10&otracker=search&otracker1=search&fm=organic&iid=f7f98126-3b51-4834-9b23-e151359fa753.COMHEHHXKFQSABXZ.SEARCH&ppt=None&ppn=None&ssid=mv85fesen40000001786011350999&qH=a5acd8458468e203&ov_redirect=true", waiting until "load"
+
+2026-09-06 02:50:34,908 | WARNING | Attempt 3 failed for https://www.flipkart.com/hp-omen-ai-amd-ryzen-7-octa-core-35... | Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.flipkart.com/hp-omen-ai-amd-ryzen-7-octa-core-350-24-gb-1-tb-ssd-windows-11-home-8-gb-graphics-nvidia-geforce-rtx-5050-16-ap0165ax-gaming-laptop/p/itm5661c90728083?pid=COMHEHHXKFQSABXZ&lid=LSTCOMHEHHXKFQSABXZEF3JCN&marketplace=FLIPKART&q=gaming+laptops&store=4rr%2Ftz1&srno=s_1_10&otracker=search&otracker1=search&fm=organic&iid=f7f98126-3b51-4834-9b23-e151359fa753.COMHEHHXKFQSABXZ.SEARCH&ppt=None&ppn=None&ssid=mv85fesen40000001786011350999&qH=a5acd8458468e203&ov_redirect=true
+Call log:
+  - navigating to "https://www.flipkart.com/hp-omen-ai-amd-ryzen-7-octa-core-350-24-gb-1-tb-ssd-windows-11-home-8-gb-graphics-nvidia-geforce-rtx-5050-16-ap0165ax-gaming-laptop/p/itm5661c90728083?pid=COMHEHHXKFQSABXZ&lid=LSTCOMHEHHXKFQSABXZEF3JCN&marketplace=FLIPKART&q=gaming+laptops&store=4rr%2Ftz1&srno=s_1_10&otracker=search&otracker1=search&fm=organic&iid=f7f98126-3b51-4834-9b23-e151359fa753.COMHEHHXKFQSABXZ.SEARCH&ppt=None&ppn=None&ssid=mv85fesen40000001786011350999&qH=a5acd8458468e203&ov_redirect=true", waiting until "load"
+
+2026-09-06 02:50:34,908 | ERROR | Giving up on https://www.flipkart.com/hp-omen-ai-amd-ryzen-7-octa-core-35... after 3 attempts
+2026-09-06 02:50:41,296 | INFO | Scraping [9] Apple MacBook Air (M5 2026) M5...
+2026-09-06 02:51:40,444 | WARNING | Attempt 1 failed for https://www.flipkart.com/apple-macbook-air-m5-2026-m5-16-gb-... | Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.flipkart.com/apple-macbook-air-m5-2026-m5-16-gb-512-gb-ssd-tahoe-mdhe4hn-a/p/itm8505e2f874525?pid=COMHZQX47WQ7YJZP&marketplace=FLIPKART&lid=LSTCOMHZQX47WQ7YJZPBZOHQJ&q=macbook+air&fm=Search&pageUID=1787289779807
+Call log:
+  - navigating to "https://www.flipkart.com/apple-macbook-air-m5-2026-m5-16-gb-512-gb-ssd-tahoe-mdhe4hn-a/p/itm8505e2f874525?pid=COMHZQX47WQ7YJZP&marketplace=FLIPKART&lid=LSTCOMHZQX47WQ7YJZPBZOHQJ&q=macbook+air&fm=Search&pageUID=1787289779807", waiting until "load"
+
+2026-09-06 02:52:05,020 | WARNING | Attempt 2 failed for https://www.flipkart.com/apple-macbook-air-m5-2026-m5-16-gb-... | Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.flipkart.com/apple-macbook-air-m5-2026-m5-16-gb-512-gb-ssd-tahoe-mdhe4hn-a/p/itm8505e2f874525?pid=COMHZQX47WQ7YJZP&marketplace=FLIPKART&lid=LSTCOMHZQX47WQ7YJZPBZOHQJ&q=macbook+air&fm=Search&pageUID=1787289779807
+Call log:
+  - navigating to "https://www.flipkart.com/apple-macbook-air-m5-2026-m5-16-gb-512-gb-ssd-tahoe-mdhe4hn-a/p/itm8505e2f874525?pid=COMHZQX47WQ7YJZP&marketplace=FLIPKART&lid=LSTCOMHZQX47WQ7YJZPBZOHQJ&q=macbook+air&fm=Search&pageUID=1787289779807", waiting until "load"
+
+2026-09-06 02:52:54,174 | WARNING | Attempt 3 failed for https://www.flipkart.com/apple-macbook-air-m5-2026-m5-16-gb-... | Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.flipkart.com/apple-macbook-air-m5-2026-m5-16-gb-512-gb-ssd-tahoe-mdhe4hn-a/p/itm8505e2f874525?pid=COMHZQX47WQ7YJZP&marketplace=FLIPKART&lid=LSTCOMHZQX47WQ7YJZPBZOHQJ&q=macbook+air&fm=Search&pageUID=1787289779807
+Call log:
+  - navigating to "https://www.flipkart.com/apple-macbook-air-m5-2026-m5-16-gb-512-gb-ssd-tahoe-mdhe4hn-a/p/itm8505e2f874525?pid=COMHZQX47WQ7YJZP&marketplace=FLIPKART&lid=LSTCOMHZQX47WQ7YJZPBZOHQJ&q=macbook+air&fm=Search&pageUID=1787289779807", waiting until "load"
+
+2026-09-06 02:52:54,174 | ERROR | Giving up on https://www.flipkart.com/apple-macbook-air-m5-2026-m5-16-gb-... after 3 attempts
+2026-09-06 02:52:57,817 | INFO | Scraping [10] Lenovo LOQ...
+2026-09-06 02:53:09,296 | INFO | Scraping [11] ASUS ROG Strix G16...
+2026-09-06 02:53:19,865 | INFO | Scraping [12] Acer Aspire 7...
+2026-09-06 02:53:26,205 | WARNING | No JSON-LD found for https://www.flipkart.com/acer-aspire-7-intel-core-i5-12th-ge... falling back to CSS selectors
+2026-09-06 02:53:27,199 | WARNING | Attempt 1 failed for https://www.flipkart.com/acer-aspire-7-intel-core-i5-12th-ge... | Empty title or price — selectors may be broken
+2026-09-06 02:53:38,452 | WARNING | No JSON-LD found for https://www.flipkart.com/acer-aspire-7-intel-core-i5-12th-ge... falling back to CSS selectors
+2026-09-06 02:53:39,445 | WARNING | Attempt 2 failed for https://www.flipkart.com/acer-aspire-7-intel-core-i5-12th-ge... | Empty title or price — selectors may be broken
+2026-09-06 02:53:50,917 | WARNING | No JSON-LD found for https://www.flipkart.com/acer-aspire-7-intel-core-i5-12th-ge... falling back to CSS selectors
+2026-09-06 02:53:51,847 | WARNING | Attempt 3 failed for https://www.flipkart.com/acer-aspire-7-intel-core-i5-12th-ge... | Empty title or price — selectors may be broken
+2026-09-06 02:53:51,847 | ERROR | Giving up on https://www.flipkart.com/acer-aspire-7-intel-core-i5-12th-ge... after 3 attempts
+2026-09-06 02:53:58,340 | INFO | Scraping [13] DELL 15 (Previously Inspiron) (2025)...
+2026-09-06 02:54:11,158 | INFO | Scraping [14] Sony Bravia 2 II 65-inch 4K...
+2026-09-06 02:54:24,144 | INFO | Scraping [15] Samsung Crystal 4K Vision AI � 55"...
+2026-09-06 02:54:33,744 | INFO | Scraping [16] brand store
+Hisense 139 cm (55 inch) Ult...
+2026-09-06 02:54:46,933 | INFO | Scraping [17] LG AI QNED evo 82 139 cm (55 inch) Ultra...
+2026-09-06 02:54:57,491 | INFO | Scraping [18] TCL T6D 138.71 cm (55 inch) QLED Ultra H...
+2026-09-06 02:55:08,699 | INFO | Scraping [19] Apple AirPods Pro 3...
+2026-09-06 02:55:19,327 | INFO | Scraping [20] Samsung Galaxy Buds4 Pro...
+2026-09-06 02:55:29,792 | INFO | Scraping [21] Sony WH-1000XM5...
+2026-09-06 02:55:41,988 | INFO | Scraping [22] OnePlus Nord Buds 4 Pro...
+2026-09-06 02:55:53,336 | INFO | Scraping [23] realme Buds Air 6 Pro...
+2026-09-06 02:56:04,351 | INFO | Scraping [24] Samsung 653L Frost Free Refrigerator...
+2026-09-06 02:56:16,395 | INFO | Scraping [25] Blue Star 2026 Model 1.5 Ton 5 Star Spli...
+2026-09-06 02:56:27,728 | INFO | Scraping [26] LG 8 kg 5 Star, Smart Inverter Technolog...
+2026-09-06 02:56:37,649 | INFO | Scraping [27] PHILIPS HD9252/90...
+2026-09-06 02:56:48,981 | INFO | Scraping [28] Whirlpool 20 L...
+2026-09-06 02:56:59,709 | INFO | Scraping [29] HAVELLS ESO 750 W Mixer Grinder (GHFMGEL...
+2026-09-06 02:57:12,318 | INFO | Scraping [30] Nike Delta Force Vulc Sneakers Men...
+2026-09-06 02:57:24,848 | INFO | Scraping [31] PUMA X-Ray 2 Squa Sneakers For Women...
+2026-09-06 02:57:34,718 | INFO | Scraping [32] Bata Derby For Men (Brown , 8)...
+2026-09-06 02:57:45,856 | INFO | Scraping [33] RED TAPE Men Slides...
+2026-09-06 02:57:55,372 | INFO | Scraping [34] Roadster Men Regular Fit Solid Mandarin ...
+2026-09-06 02:58:07,846 | INFO | Scraping [35] BIBA Printed Pure Cotton Straight Kurta ...
+2026-09-06 02:58:20,847 | INFO | Scraping [36] MAX Casual Regular Sleeves Printed Women...
+2026-09-06 02:58:30,558 | INFO | Scraping [37] Garnier Men Oil Clear Deep Cleansing...
+2026-09-06 02:58:41,280 | INFO | Scraping [38] Lakm� Sunscreen - SPF 50 PA+++ Sun Exper...
+2026-09-06 02:58:53,930 | INFO | Scraping [39] NIVEA Cocoa Nourish, Moisturizer Body Lo...
+2026-09-06 02:59:05,698 | INFO | Scraping [40] DOVE Nourishing Triple Hydration Serum B...
+2026-09-06 02:59:17,235 | WARNING | 10 product(s) failed to scrape this run: [1, 2, 3, 4, 5, 6, 7, 8, 9, 12]
+2026-09-06 02:59:17,237 | INFO | Done. 40 rows saved to flipkart_data.csv (30 succeeded, 10 failed).
