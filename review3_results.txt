@@ -1,0 +1,105 @@
+
+=== 1. Share of observations with a price change ===
+Overall: 3.38%
+
+By is_festival:
+is_festival
+False    3.22
+True     3.56
+
+By is_weekend:
+is_weekend
+False    3.68
+True     2.62
+
+By time_slot:
+time_slot
+afternoon_run    3.21
+midnight_run     5.39
+morning_run      1.58
+
+By festival_name (NaN = no festival):
+festival_name
+Ganesh Chaturthi         2.61
+Janmashtami              2.21
+Navratri + Dussehra      5.90
+None                     3.22
+Onam + Raksha Bandhan    2.35
+
+By subcategory:
+subcategory
+Audio               2.34
+Beauty              6.23
+Fashion/Footwear    4.53
+Home Appliance      2.71
+Laptop              2.52
+Smartphone          2.17
+Television          4.21
+Dropped 850 rows missing required features/target (each product's first observation has no lagged history, and each product's last observation has no 'next' target). 6322 rows remain for modeling.
+Chronological split at 2026-10-16 08:07:29.400000: 5057 train rows, 1265 test rows
+
+=== 2. Change classifier === positives: train 3.38%, test 4.82%
+Random Forest: AUC=0.708  F1=0.043  precision=0.065  recall=0.033
+XGBoost: AUC=0.690  F1=0.123  precision=0.132  recall=0.115
+Baseline (always 'no change'): AUC=0.500, F1=0.000
+
+Top 10 classifier features (RF):
+rolling_price_mean              0.1812
+rolling_price_std               0.1435
+discount_percent                0.1204
+mrp                             0.1063
+next_day_of_week_Thursday       0.0582
+price_change_pct                0.0580
+next_time_slot_morning_run      0.0536
+next_time_slot_midnight_run     0.0527
+next_time_slot_afternoon_run    0.0238
+next_is_festival                0.0226
+Dropped 850 rows missing required features/target (each product's first observation has no lagged history, and each product's last observation has no 'next' target). 6322 rows remain for modeling.
+Chronological split at 2026-10-16 08:07:29.400000: 5057 train rows, 1265 test rows
+
+=== 3. R-squared (full data, chronological test set) ===
+RF  R2 = 0.043
+XGB R2 = 0.064
+
+=== 4. Deceptive-discount checks ===
+A. Displayed vs computed discount differs by >2pp: 0 of 6438 rows (0.00%)
+B. MRP raised while SP rose less than half as much: 2 rows across 2 products
+subcategory
+Home Appliance    2
+C. Festival discount >=5pp above baseline but SP not lower than baseline: 25 of 3010 festival rows (0.83%), 1 products
+subcategory
+Home Appliance    25
+
+Mean festival SP vs baseline by subcategory (%, negative = cheaper in festival):
+subcategory
+Audio              -0.84
+Beauty             -3.90
+Fashion/Footwear   -3.20
+Home Appliance     -1.25
+Laptop             -1.24
+Smartphone         -0.52
+Television         -0.87
+
+Mean festival discount vs baseline by subcategory (pp):
+subcategory
+Audio              -0.01
+Beauty              3.32
+Fashion/Footwear   -0.18
+Home Appliance      1.75
+Laptop              0.82
+Smartphone          0.34
+Television          0.48
+
+Top 10 products by total flags:
+            A  B   C                                           name  total
+product_id                                                                
+27          0  1  25  PHILIPS HD9252/90 with Touch Panel, uses up t     26
+26          0  1   0  LG 8 kg 5 Star, Smart Inverter Technology, Tu      1
+1           0  0   0  Samsung Galaxy S25 Ultra 5G (Titanium Silverb      0
+2           0  0   0  Apple iPhone 17 Pro Max (Cosmic Orange, 512 G      0
+5           0  0   0  vivo X200T (Seaside Lilac, 512 GB) (12 GB RAM      0
+6           0  0   0  MOTOROLA edge 70 pro (Marble - PANTONE Lily w      0
+3           0  0   0  OnePlus Nord 6 (Quick Silver, 256 GB) (12 GB       0
+4           0  0   0  Samsung M47 5G (Blaze Blue, 128 GB) (6 GB RAM      0
+8           0  0   0  HP OMEN AI AMD Ryzen AI 7 Octa Core AI 7 350       0
+7           0  0   0  realme P4 Lite 5G (Mosaic Green, 128 GB) (6 G      0
