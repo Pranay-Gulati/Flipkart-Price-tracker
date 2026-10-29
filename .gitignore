@@ -3,3 +3,4 @@ EDA_Project.code-workspace
 flipkart_final.csv
 pipeline.py
 products_trial.csv
+__pycache__/
