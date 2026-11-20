@@ -19863,3 +19863,327 @@ Hisense 139 cm (55 inch) Ult...
 2026-11-19 18:41:18,352 | INFO | Scraping [40] DOVE Nourishing Triple Hydration Serum B...
 2026-11-19 18:41:29,862 | WARNING | 5 product(s) failed to scrape this run: [4, 10, 12, 38, 39]
 2026-11-19 18:41:29,864 | INFO | Done. 40 rows saved to flipkart_data.csv (35 succeeded, 5 failed).
+2026-11-20 02:31:16,001 | INFO | Starting scrape run for 40 products.
+2026-11-20 02:31:19,155 | INFO | Scraping [1] Samsung Galaxy S25 Ultra...
+2026-11-20 02:31:24,273 | WARNING | No JSON-LD found for https://www.flipkart.com/samsung-galaxy-s25-ultra-5g-titaniu... falling back to CSS selectors
+2026-11-20 02:31:24,318 | WARNING | Attempt 1 failed for https://www.flipkart.com/samsung-galaxy-s25-ultra-5g-titaniu... | Empty title or price — selectors may be broken
+2026-11-20 02:31:38,622 | WARNING | No JSON-LD found for https://www.flipkart.com/samsung-galaxy-s25-ultra-5g-titaniu... falling back to CSS selectors
+2026-11-20 02:31:38,667 | WARNING | Attempt 2 failed for https://www.flipkart.com/samsung-galaxy-s25-ultra-5g-titaniu... | Empty title or price — selectors may be broken
+2026-11-20 02:31:49,298 | WARNING | No JSON-LD found for https://www.flipkart.com/samsung-galaxy-s25-ultra-5g-titaniu... falling back to CSS selectors
+2026-11-20 02:31:49,354 | WARNING | Attempt 3 failed for https://www.flipkart.com/samsung-galaxy-s25-ultra-5g-titaniu... | Empty title or price — selectors may be broken
+2026-11-20 02:31:49,354 | ERROR | Giving up on https://www.flipkart.com/samsung-galaxy-s25-ultra-5g-titaniu... after 3 attempts
+2026-11-20 02:31:52,847 | INFO | Scraping [2] Apple iPhone 17 Pro Max...
+2026-11-20 02:31:57,890 | WARNING | No JSON-LD found for https://www.flipkart.com/apple-iphone-17-pro-max-cosmic-oran... falling back to CSS selectors
+2026-11-20 02:31:57,931 | WARNING | Attempt 1 failed for https://www.flipkart.com/apple-iphone-17-pro-max-cosmic-oran... | Empty title or price — selectors may be broken
+2026-11-20 02:32:11,915 | WARNING | No JSON-LD found for https://www.flipkart.com/apple-iphone-17-pro-max-cosmic-oran... falling back to CSS selectors
+2026-11-20 02:32:11,955 | WARNING | Attempt 2 failed for https://www.flipkart.com/apple-iphone-17-pro-max-cosmic-oran... | Empty title or price — selectors may be broken
+2026-11-20 02:32:22,056 | WARNING | No JSON-LD found for https://www.flipkart.com/apple-iphone-17-pro-max-cosmic-oran... falling back to CSS selectors
+2026-11-20 02:32:22,098 | WARNING | Attempt 3 failed for https://www.flipkart.com/apple-iphone-17-pro-max-cosmic-oran... | Empty title or price — selectors may be broken
+2026-11-20 02:32:22,098 | ERROR | Giving up on https://www.flipkart.com/apple-iphone-17-pro-max-cosmic-oran... after 3 attempts
+2026-11-20 02:32:26,441 | INFO | Scraping [3] OnePlus Nord 6 5G...
+2026-11-20 02:32:31,488 | WARNING | No JSON-LD found for https://www.flipkart.com/oneplus-nord-6-quick-silver-256-gb/... falling back to CSS selectors
+2026-11-20 02:32:31,528 | WARNING | Attempt 1 failed for https://www.flipkart.com/oneplus-nord-6-quick-silver-256-gb/... | Empty title or price — selectors may be broken
+2026-11-20 02:32:42,579 | WARNING | No JSON-LD found for https://www.flipkart.com/oneplus-nord-6-quick-silver-256-gb/... falling back to CSS selectors
+2026-11-20 02:32:42,619 | WARNING | Attempt 2 failed for https://www.flipkart.com/oneplus-nord-6-quick-silver-256-gb/... | Empty title or price — selectors may be broken
+2026-11-20 02:32:55,805 | WARNING | No JSON-LD found for https://www.flipkart.com/oneplus-nord-6-quick-silver-256-gb/... falling back to CSS selectors
+2026-11-20 02:32:55,844 | WARNING | Attempt 3 failed for https://www.flipkart.com/oneplus-nord-6-quick-silver-256-gb/... | Empty title or price — selectors may be broken
+2026-11-20 02:32:55,844 | ERROR | Giving up on https://www.flipkart.com/oneplus-nord-6-quick-silver-256-gb/... after 3 attempts
+2026-11-20 02:32:59,113 | INFO | Scraping [4] Samsung Galaxy M47 5G...
+2026-11-20 02:33:04,157 | WARNING | No JSON-LD found for https://www.flipkart.com/samsung-m47-5g-blaze-blue-128-gb/p/... falling back to CSS selectors
+2026-11-20 02:33:04,198 | WARNING | Attempt 1 failed for https://www.flipkart.com/samsung-m47-5g-blaze-blue-128-gb/p/... | Empty title or price — selectors may be broken
+2026-11-20 02:33:18,417 | WARNING | No JSON-LD found for https://www.flipkart.com/samsung-m47-5g-blaze-blue-128-gb/p/... falling back to CSS selectors
+2026-11-20 02:33:18,455 | WARNING | Attempt 2 failed for https://www.flipkart.com/samsung-m47-5g-blaze-blue-128-gb/p/... | Empty title or price — selectors may be broken
+2026-11-20 02:33:33,600 | WARNING | No JSON-LD found for https://www.flipkart.com/samsung-m47-5g-blaze-blue-128-gb/p/... falling back to CSS selectors
+2026-11-20 02:33:33,640 | WARNING | Attempt 3 failed for https://www.flipkart.com/samsung-m47-5g-blaze-blue-128-gb/p/... | Empty title or price — selectors may be broken
+2026-11-20 02:33:33,640 | ERROR | Giving up on https://www.flipkart.com/samsung-m47-5g-blaze-blue-128-gb/p/... after 3 attempts
+2026-11-20 02:33:39,860 | INFO | Scraping [5] Vivo X200t...
+2026-11-20 02:33:44,917 | WARNING | No JSON-LD found for https://www.flipkart.com/vivo-x200t-seaside-lilac-512-gb/p/i... falling back to CSS selectors
+2026-11-20 02:33:44,956 | WARNING | Attempt 1 failed for https://www.flipkart.com/vivo-x200t-seaside-lilac-512-gb/p/i... | Empty title or price — selectors may be broken
+2026-11-20 02:33:57,020 | WARNING | No JSON-LD found for https://www.flipkart.com/vivo-x200t-seaside-lilac-512-gb/p/i... falling back to CSS selectors
+2026-11-20 02:33:57,060 | WARNING | Attempt 2 failed for https://www.flipkart.com/vivo-x200t-seaside-lilac-512-gb/p/i... | Empty title or price — selectors may be broken
+2026-11-20 02:34:08,415 | WARNING | No JSON-LD found for https://www.flipkart.com/vivo-x200t-seaside-lilac-512-gb/p/i... falling back to CSS selectors
+2026-11-20 02:34:08,454 | WARNING | Attempt 3 failed for https://www.flipkart.com/vivo-x200t-seaside-lilac-512-gb/p/i... | Empty title or price — selectors may be broken
+2026-11-20 02:34:08,454 | ERROR | Giving up on https://www.flipkart.com/vivo-x200t-seaside-lilac-512-gb/p/i... after 3 attempts
+2026-11-20 02:34:12,077 | INFO | Scraping [6] Motorola Edge 70 Pro...
+2026-11-20 02:34:17,180 | WARNING | No JSON-LD found for https://www.flipkart.com/motorola-edge-70-pro-marble-pantone... falling back to CSS selectors
+2026-11-20 02:34:17,220 | WARNING | Attempt 1 failed for https://www.flipkart.com/motorola-edge-70-pro-marble-pantone... | Empty title or price — selectors may be broken
+2026-11-20 02:34:27,374 | WARNING | No JSON-LD found for https://www.flipkart.com/motorola-edge-70-pro-marble-pantone... falling back to CSS selectors
+2026-11-20 02:34:27,413 | WARNING | Attempt 2 failed for https://www.flipkart.com/motorola-edge-70-pro-marble-pantone... | Empty title or price — selectors may be broken
+2026-11-20 02:34:40,187 | WARNING | No JSON-LD found for https://www.flipkart.com/motorola-edge-70-pro-marble-pantone... falling back to CSS selectors
+2026-11-20 02:34:40,227 | WARNING | Attempt 3 failed for https://www.flipkart.com/motorola-edge-70-pro-marble-pantone... | Empty title or price — selectors may be broken
+2026-11-20 02:34:40,227 | ERROR | Giving up on https://www.flipkart.com/motorola-edge-70-pro-marble-pantone... after 3 attempts
+2026-11-20 02:34:44,780 | INFO | Scraping [7] Realme P4 Lite 5G...
+2026-11-20 02:34:49,826 | WARNING | No JSON-LD found for https://www.flipkart.com/realme-p4-lite-5g-mosaic-green-128-... falling back to CSS selectors
+2026-11-20 02:34:49,865 | WARNING | Attempt 1 failed for https://www.flipkart.com/realme-p4-lite-5g-mosaic-green-128-... | Empty title or price — selectors may be broken
+2026-11-20 02:35:03,824 | WARNING | No JSON-LD found for https://www.flipkart.com/realme-p4-lite-5g-mosaic-green-128-... falling back to CSS selectors
+2026-11-20 02:35:03,862 | WARNING | Attempt 2 failed for https://www.flipkart.com/realme-p4-lite-5g-mosaic-green-128-... | Empty title or price — selectors may be broken
+2026-11-20 02:35:15,559 | WARNING | No JSON-LD found for https://www.flipkart.com/realme-p4-lite-5g-mosaic-green-128-... falling back to CSS selectors
+2026-11-20 02:35:15,598 | WARNING | Attempt 3 failed for https://www.flipkart.com/realme-p4-lite-5g-mosaic-green-128-... | Empty title or price — selectors may be broken
+2026-11-20 02:35:15,598 | ERROR | Giving up on https://www.flipkart.com/realme-p4-lite-5g-mosaic-green-128-... after 3 attempts
+2026-11-20 02:35:19,408 | INFO | Scraping [8] HP Omen AI Ryzen 7 Gaming Laptop...
+2026-11-20 02:35:24,455 | WARNING | No JSON-LD found for https://www.flipkart.com/hp-omen-ai-amd-ryzen-7-octa-core-35... falling back to CSS selectors
+2026-11-20 02:35:24,495 | WARNING | Attempt 1 failed for https://www.flipkart.com/hp-omen-ai-amd-ryzen-7-octa-core-35... | Empty title or price — selectors may be broken
+2026-11-20 02:35:37,855 | WARNING | No JSON-LD found for https://www.flipkart.com/hp-omen-ai-amd-ryzen-7-octa-core-35... falling back to CSS selectors
+2026-11-20 02:35:37,894 | WARNING | Attempt 2 failed for https://www.flipkart.com/hp-omen-ai-amd-ryzen-7-octa-core-35... | Empty title or price — selectors may be broken
+2026-11-20 02:35:51,595 | WARNING | No JSON-LD found for https://www.flipkart.com/hp-omen-ai-amd-ryzen-7-octa-core-35... falling back to CSS selectors
+2026-11-20 02:35:51,633 | WARNING | Attempt 3 failed for https://www.flipkart.com/hp-omen-ai-amd-ryzen-7-octa-core-35... | Empty title or price — selectors may be broken
+2026-11-20 02:35:51,634 | ERROR | Giving up on https://www.flipkart.com/hp-omen-ai-amd-ryzen-7-octa-core-35... after 3 attempts
+2026-11-20 02:35:55,840 | INFO | Scraping [9] Apple MacBook Air (M5 2026) M5...
+2026-11-20 02:36:00,938 | WARNING | No JSON-LD found for https://www.flipkart.com/apple-macbook-air-m5-2026-m5-16-gb-... falling back to CSS selectors
+2026-11-20 02:36:00,978 | WARNING | Attempt 1 failed for https://www.flipkart.com/apple-macbook-air-m5-2026-m5-16-gb-... | Empty title or price — selectors may be broken
+2026-11-20 02:36:15,051 | WARNING | No JSON-LD found for https://www.flipkart.com/apple-macbook-air-m5-2026-m5-16-gb-... falling back to CSS selectors
+2026-11-20 02:36:15,092 | WARNING | Attempt 2 failed for https://www.flipkart.com/apple-macbook-air-m5-2026-m5-16-gb-... | Empty title or price — selectors may be broken
+2026-11-20 02:36:27,468 | WARNING | No JSON-LD found for https://www.flipkart.com/apple-macbook-air-m5-2026-m5-16-gb-... falling back to CSS selectors
+2026-11-20 02:36:27,508 | WARNING | Attempt 3 failed for https://www.flipkart.com/apple-macbook-air-m5-2026-m5-16-gb-... | Empty title or price — selectors may be broken
+2026-11-20 02:36:27,508 | ERROR | Giving up on https://www.flipkart.com/apple-macbook-air-m5-2026-m5-16-gb-... after 3 attempts
+2026-11-20 02:36:32,029 | INFO | Scraping [10] Lenovo LOQ...
+2026-11-20 02:36:37,082 | WARNING | No JSON-LD found for https://www.flipkart.com/lenovo-loq-intel-core-i5-13th-gen-1... falling back to CSS selectors
+2026-11-20 02:36:37,122 | WARNING | Attempt 1 failed for https://www.flipkart.com/lenovo-loq-intel-core-i5-13th-gen-1... | Empty title or price — selectors may be broken
+2026-11-20 02:36:48,762 | WARNING | No JSON-LD found for https://www.flipkart.com/lenovo-loq-intel-core-i5-13th-gen-1... falling back to CSS selectors
+2026-11-20 02:36:48,802 | WARNING | Attempt 2 failed for https://www.flipkart.com/lenovo-loq-intel-core-i5-13th-gen-1... | Empty title or price — selectors may be broken
+2026-11-20 02:37:02,901 | WARNING | No JSON-LD found for https://www.flipkart.com/lenovo-loq-intel-core-i5-13th-gen-1... falling back to CSS selectors
+2026-11-20 02:37:02,941 | WARNING | Attempt 3 failed for https://www.flipkart.com/lenovo-loq-intel-core-i5-13th-gen-1... | Empty title or price — selectors may be broken
+2026-11-20 02:37:02,941 | ERROR | Giving up on https://www.flipkart.com/lenovo-loq-intel-core-i5-13th-gen-1... after 3 attempts
+2026-11-20 02:37:08,255 | INFO | Scraping [11] ASUS ROG Strix G16...
+2026-11-20 02:37:13,303 | WARNING | No JSON-LD found for https://www.flipkart.com/asus-rog-strix-g16-2025-office-2024... falling back to CSS selectors
+2026-11-20 02:37:13,344 | WARNING | Attempt 1 failed for https://www.flipkart.com/asus-rog-strix-g16-2025-office-2024... | Empty title or price — selectors may be broken
+2026-11-20 02:37:27,597 | WARNING | No JSON-LD found for https://www.flipkart.com/asus-rog-strix-g16-2025-office-2024... falling back to CSS selectors
+2026-11-20 02:37:27,637 | WARNING | Attempt 2 failed for https://www.flipkart.com/asus-rog-strix-g16-2025-office-2024... | Empty title or price — selectors may be broken
+2026-11-20 02:37:42,663 | WARNING | No JSON-LD found for https://www.flipkart.com/asus-rog-strix-g16-2025-office-2024... falling back to CSS selectors
+2026-11-20 02:37:42,702 | WARNING | Attempt 3 failed for https://www.flipkart.com/asus-rog-strix-g16-2025-office-2024... | Empty title or price — selectors may be broken
+2026-11-20 02:37:42,702 | ERROR | Giving up on https://www.flipkart.com/asus-rog-strix-g16-2025-office-2024... after 3 attempts
+2026-11-20 02:37:47,815 | INFO | Scraping [12] Acer Aspire 7...
+2026-11-20 02:37:52,874 | WARNING | No JSON-LD found for https://www.flipkart.com/acer-aspire-7-intel-core-i5-12th-ge... falling back to CSS selectors
+2026-11-20 02:37:52,915 | WARNING | Attempt 1 failed for https://www.flipkart.com/acer-aspire-7-intel-core-i5-12th-ge... | Empty title or price — selectors may be broken
+2026-11-20 02:38:03,285 | WARNING | No JSON-LD found for https://www.flipkart.com/acer-aspire-7-intel-core-i5-12th-ge... falling back to CSS selectors
+2026-11-20 02:38:03,324 | WARNING | Attempt 2 failed for https://www.flipkart.com/acer-aspire-7-intel-core-i5-12th-ge... | Empty title or price — selectors may be broken
+2026-11-20 02:38:15,757 | WARNING | No JSON-LD found for https://www.flipkart.com/acer-aspire-7-intel-core-i5-12th-ge... falling back to CSS selectors
+2026-11-20 02:38:15,797 | WARNING | Attempt 3 failed for https://www.flipkart.com/acer-aspire-7-intel-core-i5-12th-ge... | Empty title or price — selectors may be broken
+2026-11-20 02:38:15,797 | ERROR | Giving up on https://www.flipkart.com/acer-aspire-7-intel-core-i5-12th-ge... after 3 attempts
+2026-11-20 02:38:20,588 | INFO | Scraping [13] DELL 15 (Previously Inspiron) (2025)...
+2026-11-20 02:38:25,688 | WARNING | No JSON-LD found for https://www.flipkart.com/dell-15-previously-inspiron-2025-mi... falling back to CSS selectors
+2026-11-20 02:38:25,727 | WARNING | Attempt 1 failed for https://www.flipkart.com/dell-15-previously-inspiron-2025-mi... | Empty title or price — selectors may be broken
+2026-11-20 02:38:39,265 | WARNING | No JSON-LD found for https://www.flipkart.com/dell-15-previously-inspiron-2025-mi... falling back to CSS selectors
+2026-11-20 02:38:39,324 | WARNING | Attempt 2 failed for https://www.flipkart.com/dell-15-previously-inspiron-2025-mi... | Empty title or price — selectors may be broken
+2026-11-20 02:38:53,481 | WARNING | No JSON-LD found for https://www.flipkart.com/dell-15-previously-inspiron-2025-mi... falling back to CSS selectors
+2026-11-20 02:38:53,521 | WARNING | Attempt 3 failed for https://www.flipkart.com/dell-15-previously-inspiron-2025-mi... | Empty title or price — selectors may be broken
+2026-11-20 02:38:53,522 | ERROR | Giving up on https://www.flipkart.com/dell-15-previously-inspiron-2025-mi... after 3 attempts
+2026-11-20 02:39:00,387 | INFO | Scraping [14] Sony Bravia 2 II 65-inch 4K...
+2026-11-20 02:39:05,520 | WARNING | No JSON-LD found for https://www.flipkart.com/sony-bravia-2-ii-163-9-cm-65-inch-u... falling back to CSS selectors
+2026-11-20 02:39:05,561 | WARNING | Attempt 1 failed for https://www.flipkart.com/sony-bravia-2-ii-163-9-cm-65-inch-u... | Empty title or price — selectors may be broken
+2026-11-20 02:39:18,735 | WARNING | No JSON-LD found for https://www.flipkart.com/sony-bravia-2-ii-163-9-cm-65-inch-u... falling back to CSS selectors
+2026-11-20 02:39:18,774 | WARNING | Attempt 2 failed for https://www.flipkart.com/sony-bravia-2-ii-163-9-cm-65-inch-u... | Empty title or price — selectors may be broken
+2026-11-20 02:39:31,221 | WARNING | No JSON-LD found for https://www.flipkart.com/sony-bravia-2-ii-163-9-cm-65-inch-u... falling back to CSS selectors
+2026-11-20 02:39:31,260 | WARNING | Attempt 3 failed for https://www.flipkart.com/sony-bravia-2-ii-163-9-cm-65-inch-u... | Empty title or price — selectors may be broken
+2026-11-20 02:39:31,260 | ERROR | Giving up on https://www.flipkart.com/sony-bravia-2-ii-163-9-cm-65-inch-u... after 3 attempts
+2026-11-20 02:39:34,711 | INFO | Scraping [15] Samsung Crystal 4K Vision AI � 55"...
+2026-11-20 02:39:39,758 | WARNING | No JSON-LD found for https://www.flipkart.com/samsung-crystal-vision-ai-138-cm-55... falling back to CSS selectors
+2026-11-20 02:39:39,797 | WARNING | Attempt 1 failed for https://www.flipkart.com/samsung-crystal-vision-ai-138-cm-55... | Empty title or price — selectors may be broken
+2026-11-20 02:39:52,263 | WARNING | No JSON-LD found for https://www.flipkart.com/samsung-crystal-vision-ai-138-cm-55... falling back to CSS selectors
+2026-11-20 02:39:52,311 | WARNING | Attempt 2 failed for https://www.flipkart.com/samsung-crystal-vision-ai-138-cm-55... | Empty title or price — selectors may be broken
+2026-11-20 02:40:07,593 | WARNING | No JSON-LD found for https://www.flipkart.com/samsung-crystal-vision-ai-138-cm-55... falling back to CSS selectors
+2026-11-20 02:40:07,632 | WARNING | Attempt 3 failed for https://www.flipkart.com/samsung-crystal-vision-ai-138-cm-55... | Empty title or price — selectors may be broken
+2026-11-20 02:40:07,632 | ERROR | Giving up on https://www.flipkart.com/samsung-crystal-vision-ai-138-cm-55... after 3 attempts
+2026-11-20 02:40:13,644 | INFO | Scraping [16] brand store
+Hisense 139 cm (55 inch) Ult...
+2026-11-20 02:40:19,213 | WARNING | No JSON-LD found for https://www.flipkart.com/hisense-139-cm-55-inch-ultra-hd-4k-... falling back to CSS selectors
+2026-11-20 02:40:19,253 | WARNING | Attempt 1 failed for https://www.flipkart.com/hisense-139-cm-55-inch-ultra-hd-4k-... | Empty title or price — selectors may be broken
+2026-11-20 02:40:32,486 | WARNING | No JSON-LD found for https://www.flipkart.com/hisense-139-cm-55-inch-ultra-hd-4k-... falling back to CSS selectors
+2026-11-20 02:40:32,527 | WARNING | Attempt 2 failed for https://www.flipkart.com/hisense-139-cm-55-inch-ultra-hd-4k-... | Empty title or price — selectors may be broken
+2026-11-20 02:40:44,456 | WARNING | No JSON-LD found for https://www.flipkart.com/hisense-139-cm-55-inch-ultra-hd-4k-... falling back to CSS selectors
+2026-11-20 02:40:44,496 | WARNING | Attempt 3 failed for https://www.flipkart.com/hisense-139-cm-55-inch-ultra-hd-4k-... | Empty title or price — selectors may be broken
+2026-11-20 02:40:44,496 | ERROR | Giving up on https://www.flipkart.com/hisense-139-cm-55-inch-ultra-hd-4k-... after 3 attempts
+2026-11-20 02:40:51,437 | INFO | Scraping [17] LG AI QNED evo 82 139 cm (55 inch) Ultra...
+2026-11-20 02:40:57,132 | WARNING | No JSON-LD found for https://www.flipkart.com/lg-ai-qned-evo-82-139-cm-55-inch-ul... falling back to CSS selectors
+2026-11-20 02:40:57,173 | WARNING | Attempt 1 failed for https://www.flipkart.com/lg-ai-qned-evo-82-139-cm-55-inch-ul... | Empty title or price — selectors may be broken
+2026-11-20 02:41:12,589 | WARNING | No JSON-LD found for https://www.flipkart.com/lg-ai-qned-evo-82-139-cm-55-inch-ul... falling back to CSS selectors
+2026-11-20 02:41:12,628 | WARNING | Attempt 2 failed for https://www.flipkart.com/lg-ai-qned-evo-82-139-cm-55-inch-ul... | Empty title or price — selectors may be broken
+2026-11-20 02:41:25,206 | WARNING | No JSON-LD found for https://www.flipkart.com/lg-ai-qned-evo-82-139-cm-55-inch-ul... falling back to CSS selectors
+2026-11-20 02:41:25,247 | WARNING | Attempt 3 failed for https://www.flipkart.com/lg-ai-qned-evo-82-139-cm-55-inch-ul... | Empty title or price — selectors may be broken
+2026-11-20 02:41:25,247 | ERROR | Giving up on https://www.flipkart.com/lg-ai-qned-evo-82-139-cm-55-inch-ul... after 3 attempts
+2026-11-20 02:41:29,734 | INFO | Scraping [18] TCL T6D 138.71 cm (55 inch) QLED Ultra H...
+2026-11-20 02:41:35,192 | WARNING | No JSON-LD found for https://www.flipkart.com/tcl-t6d-138-71-cm-55-inch-qled-ultr... falling back to CSS selectors
+2026-11-20 02:41:35,232 | WARNING | Attempt 1 failed for https://www.flipkart.com/tcl-t6d-138-71-cm-55-inch-qled-ultr... | Empty title or price — selectors may be broken
+2026-11-20 02:41:48,531 | WARNING | No JSON-LD found for https://www.flipkart.com/tcl-t6d-138-71-cm-55-inch-qled-ultr... falling back to CSS selectors
+2026-11-20 02:41:48,570 | WARNING | Attempt 2 failed for https://www.flipkart.com/tcl-t6d-138-71-cm-55-inch-qled-ultr... | Empty title or price — selectors may be broken
+2026-11-20 02:41:59,473 | WARNING | No JSON-LD found for https://www.flipkart.com/tcl-t6d-138-71-cm-55-inch-qled-ultr... falling back to CSS selectors
+2026-11-20 02:41:59,513 | WARNING | Attempt 3 failed for https://www.flipkart.com/tcl-t6d-138-71-cm-55-inch-qled-ultr... | Empty title or price — selectors may be broken
+2026-11-20 02:41:59,513 | ERROR | Giving up on https://www.flipkart.com/tcl-t6d-138-71-cm-55-inch-qled-ultr... after 3 attempts
+2026-11-20 02:42:05,084 | INFO | Scraping [19] Apple AirPods Pro 3...
+2026-11-20 02:42:10,482 | WARNING | No JSON-LD found for https://www.flipkart.com/apple-airpods-pro-3-bluetooth/p/itm... falling back to CSS selectors
+2026-11-20 02:42:10,522 | WARNING | Attempt 1 failed for https://www.flipkart.com/apple-airpods-pro-3-bluetooth/p/itm... | Empty title or price — selectors may be broken
+2026-11-20 02:42:22,246 | WARNING | No JSON-LD found for https://www.flipkart.com/apple-airpods-pro-3-bluetooth/p/itm... falling back to CSS selectors
+2026-11-20 02:42:22,285 | WARNING | Attempt 2 failed for https://www.flipkart.com/apple-airpods-pro-3-bluetooth/p/itm... | Empty title or price — selectors may be broken
+2026-11-20 02:42:33,233 | WARNING | No JSON-LD found for https://www.flipkart.com/apple-airpods-pro-3-bluetooth/p/itm... falling back to CSS selectors
+2026-11-20 02:42:33,273 | WARNING | Attempt 3 failed for https://www.flipkart.com/apple-airpods-pro-3-bluetooth/p/itm... | Empty title or price — selectors may be broken
+2026-11-20 02:42:33,273 | ERROR | Giving up on https://www.flipkart.com/apple-airpods-pro-3-bluetooth/p/itm... after 3 attempts
+2026-11-20 02:42:36,626 | INFO | Scraping [20] Samsung Galaxy Buds4 Pro...
+2026-11-20 02:42:41,914 | WARNING | No JSON-LD found for https://www.flipkart.com/samsung-galaxy-buds4-pro-hi-fi-audi... falling back to CSS selectors
+2026-11-20 02:42:41,953 | WARNING | Attempt 1 failed for https://www.flipkart.com/samsung-galaxy-buds4-pro-hi-fi-audi... | Empty title or price — selectors may be broken
+2026-11-20 02:42:55,948 | WARNING | No JSON-LD found for https://www.flipkart.com/samsung-galaxy-buds4-pro-hi-fi-audi... falling back to CSS selectors
+2026-11-20 02:42:55,987 | WARNING | Attempt 2 failed for https://www.flipkart.com/samsung-galaxy-buds4-pro-hi-fi-audi... | Empty title or price — selectors may be broken
+2026-11-20 02:43:06,612 | WARNING | No JSON-LD found for https://www.flipkart.com/samsung-galaxy-buds4-pro-hi-fi-audi... falling back to CSS selectors
+2026-11-20 02:43:06,651 | WARNING | Attempt 3 failed for https://www.flipkart.com/samsung-galaxy-buds4-pro-hi-fi-audi... | Empty title or price — selectors may be broken
+2026-11-20 02:43:06,651 | ERROR | Giving up on https://www.flipkart.com/samsung-galaxy-buds4-pro-hi-fi-audi... after 3 attempts
+2026-11-20 02:43:09,901 | INFO | Scraping [21] Sony WH-1000XM5...
+2026-11-20 02:43:15,068 | WARNING | No JSON-LD found for https://www.flipkart.com/sony-wh1000xm4-bmin-bluetooth/p/itm... falling back to CSS selectors
+2026-11-20 02:43:15,107 | WARNING | Attempt 1 failed for https://www.flipkart.com/sony-wh1000xm4-bmin-bluetooth/p/itm... | Empty title or price — selectors may be broken
+2026-11-20 02:43:25,899 | WARNING | No JSON-LD found for https://www.flipkart.com/sony-wh1000xm4-bmin-bluetooth/p/itm... falling back to CSS selectors
+2026-11-20 02:43:25,937 | WARNING | Attempt 2 failed for https://www.flipkart.com/sony-wh1000xm4-bmin-bluetooth/p/itm... | Empty title or price — selectors may be broken
+2026-11-20 02:43:40,557 | WARNING | No JSON-LD found for https://www.flipkart.com/sony-wh1000xm4-bmin-bluetooth/p/itm... falling back to CSS selectors
+2026-11-20 02:43:40,597 | WARNING | Attempt 3 failed for https://www.flipkart.com/sony-wh1000xm4-bmin-bluetooth/p/itm... | Empty title or price — selectors may be broken
+2026-11-20 02:43:40,597 | ERROR | Giving up on https://www.flipkart.com/sony-wh1000xm4-bmin-bluetooth/p/itm... after 3 attempts
+2026-11-20 02:43:43,603 | INFO | Scraping [22] OnePlus Nord Buds 4 Pro...
+2026-11-20 02:43:48,651 | WARNING | No JSON-LD found for https://www.flipkart.com/oneplus-nord-buds-4-pro-tws-earbuds... falling back to CSS selectors
+2026-11-20 02:43:48,691 | WARNING | Attempt 1 failed for https://www.flipkart.com/oneplus-nord-buds-4-pro-tws-earbuds... | Empty title or price — selectors may be broken
+2026-11-20 02:43:59,436 | WARNING | No JSON-LD found for https://www.flipkart.com/oneplus-nord-buds-4-pro-tws-earbuds... falling back to CSS selectors
+2026-11-20 02:43:59,474 | WARNING | Attempt 2 failed for https://www.flipkart.com/oneplus-nord-buds-4-pro-tws-earbuds... | Empty title or price — selectors may be broken
+2026-11-20 02:44:11,044 | WARNING | No JSON-LD found for https://www.flipkart.com/oneplus-nord-buds-4-pro-tws-earbuds... falling back to CSS selectors
+2026-11-20 02:44:11,083 | WARNING | Attempt 3 failed for https://www.flipkart.com/oneplus-nord-buds-4-pro-tws-earbuds... | Empty title or price — selectors may be broken
+2026-11-20 02:44:11,083 | ERROR | Giving up on https://www.flipkart.com/oneplus-nord-buds-4-pro-tws-earbuds... after 3 attempts
+2026-11-20 02:44:14,653 | INFO | Scraping [23] realme Buds Air 6 Pro...
+2026-11-20 02:44:19,698 | WARNING | No JSON-LD found for https://www.flipkart.com/realme-buds-air-6-pro-50db-anc-360-... falling back to CSS selectors
+2026-11-20 02:44:19,738 | WARNING | Attempt 1 failed for https://www.flipkart.com/realme-buds-air-6-pro-50db-anc-360-... | Empty title or price — selectors may be broken
+2026-11-20 02:44:32,152 | WARNING | No JSON-LD found for https://www.flipkart.com/realme-buds-air-6-pro-50db-anc-360-... falling back to CSS selectors
+2026-11-20 02:44:32,191 | WARNING | Attempt 2 failed for https://www.flipkart.com/realme-buds-air-6-pro-50db-anc-360-... | Empty title or price — selectors may be broken
+2026-11-20 02:44:46,265 | WARNING | No JSON-LD found for https://www.flipkart.com/realme-buds-air-6-pro-50db-anc-360-... falling back to CSS selectors
+2026-11-20 02:44:46,319 | WARNING | Attempt 3 failed for https://www.flipkart.com/realme-buds-air-6-pro-50db-anc-360-... | Empty title or price — selectors may be broken
+2026-11-20 02:44:46,319 | ERROR | Giving up on https://www.flipkart.com/realme-buds-air-6-pro-50db-anc-360-... after 3 attempts
+2026-11-20 02:44:51,928 | INFO | Scraping [24] Samsung 653L Frost Free Refrigerator...
+2026-11-20 02:44:56,982 | WARNING | No JSON-LD found for https://www.flipkart.com/samsung-653-l-frost-free-side-3-sta... falling back to CSS selectors
+2026-11-20 02:44:57,021 | WARNING | Attempt 1 failed for https://www.flipkart.com/samsung-653-l-frost-free-side-3-sta... | Empty title or price — selectors may be broken
+2026-11-20 02:45:11,927 | WARNING | No JSON-LD found for https://www.flipkart.com/samsung-653-l-frost-free-side-3-sta... falling back to CSS selectors
+2026-11-20 02:45:11,967 | WARNING | Attempt 2 failed for https://www.flipkart.com/samsung-653-l-frost-free-side-3-sta... | Empty title or price — selectors may be broken
+2026-11-20 02:45:26,983 | WARNING | No JSON-LD found for https://www.flipkart.com/samsung-653-l-frost-free-side-3-sta... falling back to CSS selectors
+2026-11-20 02:45:27,021 | WARNING | Attempt 3 failed for https://www.flipkart.com/samsung-653-l-frost-free-side-3-sta... | Empty title or price — selectors may be broken
+2026-11-20 02:45:27,021 | ERROR | Giving up on https://www.flipkart.com/samsung-653-l-frost-free-side-3-sta... after 3 attempts
+2026-11-20 02:45:33,915 | INFO | Scraping [25] Blue Star 2026 Model 1.5 Ton 5 Star Spli...
+2026-11-20 02:45:38,962 | WARNING | No JSON-LD found for https://www.flipkart.com/blue-star-2026-model-1-5-ton-5-spli... falling back to CSS selectors
+2026-11-20 02:45:39,001 | WARNING | Attempt 1 failed for https://www.flipkart.com/blue-star-2026-model-1-5-ton-5-spli... | Empty title or price — selectors may be broken
+2026-11-20 02:45:53,973 | WARNING | No JSON-LD found for https://www.flipkart.com/blue-star-2026-model-1-5-ton-5-spli... falling back to CSS selectors
+2026-11-20 02:45:54,012 | WARNING | Attempt 2 failed for https://www.flipkart.com/blue-star-2026-model-1-5-ton-5-spli... | Empty title or price — selectors may be broken
+2026-11-20 02:46:05,641 | WARNING | No JSON-LD found for https://www.flipkart.com/blue-star-2026-model-1-5-ton-5-spli... falling back to CSS selectors
+2026-11-20 02:46:05,681 | WARNING | Attempt 3 failed for https://www.flipkart.com/blue-star-2026-model-1-5-ton-5-spli... | Empty title or price — selectors may be broken
+2026-11-20 02:46:05,681 | ERROR | Giving up on https://www.flipkart.com/blue-star-2026-model-1-5-ton-5-spli... after 3 attempts
+2026-11-20 02:46:11,694 | INFO | Scraping [26] LG 8 kg 5 Star, Smart Inverter Technolog...
+2026-11-20 02:46:16,774 | WARNING | No JSON-LD found for https://www.flipkart.com/lg-8-kg-5-star-smart-inverter-techn... falling back to CSS selectors
+2026-11-20 02:46:16,814 | WARNING | Attempt 1 failed for https://www.flipkart.com/lg-8-kg-5-star-smart-inverter-techn... | Empty title or price — selectors may be broken
+2026-11-20 02:46:29,842 | WARNING | No JSON-LD found for https://www.flipkart.com/lg-8-kg-5-star-smart-inverter-techn... falling back to CSS selectors
+2026-11-20 02:46:29,882 | WARNING | Attempt 2 failed for https://www.flipkart.com/lg-8-kg-5-star-smart-inverter-techn... | Empty title or price — selectors may be broken
+2026-11-20 02:46:42,464 | WARNING | No JSON-LD found for https://www.flipkart.com/lg-8-kg-5-star-smart-inverter-techn... falling back to CSS selectors
+2026-11-20 02:46:42,504 | WARNING | Attempt 3 failed for https://www.flipkart.com/lg-8-kg-5-star-smart-inverter-techn... | Empty title or price — selectors may be broken
+2026-11-20 02:46:42,504 | ERROR | Giving up on https://www.flipkart.com/lg-8-kg-5-star-smart-inverter-techn... after 3 attempts
+2026-11-20 02:46:45,545 | INFO | Scraping [27] PHILIPS HD9252/90...
+2026-11-20 02:46:50,615 | WARNING | No JSON-LD found for https://www.flipkart.com/philips-hd9252-90-touch-panel-uses-... falling back to CSS selectors
+2026-11-20 02:46:50,655 | WARNING | Attempt 1 failed for https://www.flipkart.com/philips-hd9252-90-touch-panel-uses-... | Empty title or price — selectors may be broken
+2026-11-20 02:47:05,052 | WARNING | No JSON-LD found for https://www.flipkart.com/philips-hd9252-90-touch-panel-uses-... falling back to CSS selectors
+2026-11-20 02:47:05,091 | WARNING | Attempt 2 failed for https://www.flipkart.com/philips-hd9252-90-touch-panel-uses-... | Empty title or price — selectors may be broken
+2026-11-20 02:47:18,346 | WARNING | No JSON-LD found for https://www.flipkart.com/philips-hd9252-90-touch-panel-uses-... falling back to CSS selectors
+2026-11-20 02:47:18,384 | WARNING | Attempt 3 failed for https://www.flipkart.com/philips-hd9252-90-touch-panel-uses-... | Empty title or price — selectors may be broken
+2026-11-20 02:47:18,384 | ERROR | Giving up on https://www.flipkart.com/philips-hd9252-90-touch-panel-uses-... after 3 attempts
+2026-11-20 02:47:22,382 | INFO | Scraping [28] Whirlpool 20 L...
+2026-11-20 02:47:27,433 | WARNING | No JSON-LD found for https://www.flipkart.com/whirlpool-20-l-18-auto-cook-recipes... falling back to CSS selectors
+2026-11-20 02:47:27,472 | WARNING | Attempt 1 failed for https://www.flipkart.com/whirlpool-20-l-18-auto-cook-recipes... | Empty title or price — selectors may be broken
+2026-11-20 02:47:42,081 | WARNING | No JSON-LD found for https://www.flipkart.com/whirlpool-20-l-18-auto-cook-recipes... falling back to CSS selectors
+2026-11-20 02:47:42,119 | WARNING | Attempt 2 failed for https://www.flipkart.com/whirlpool-20-l-18-auto-cook-recipes... | Empty title or price — selectors may be broken
+2026-11-20 02:47:55,950 | WARNING | No JSON-LD found for https://www.flipkart.com/whirlpool-20-l-18-auto-cook-recipes... falling back to CSS selectors
+2026-11-20 02:47:55,989 | WARNING | Attempt 3 failed for https://www.flipkart.com/whirlpool-20-l-18-auto-cook-recipes... | Empty title or price — selectors may be broken
+2026-11-20 02:47:55,989 | ERROR | Giving up on https://www.flipkart.com/whirlpool-20-l-18-auto-cook-recipes... after 3 attempts
+2026-11-20 02:47:59,857 | INFO | Scraping [29] HAVELLS ESO 750 W Mixer Grinder (GHFMGEL...
+2026-11-20 02:48:05,010 | WARNING | No JSON-LD found for https://www.flipkart.com/havells-eso-750-w-mixer-grinder/p/i... falling back to CSS selectors
+2026-11-20 02:48:05,049 | WARNING | Attempt 1 failed for https://www.flipkart.com/havells-eso-750-w-mixer-grinder/p/i... | Empty title or price — selectors may be broken
+2026-11-20 02:48:16,045 | WARNING | No JSON-LD found for https://www.flipkart.com/havells-eso-750-w-mixer-grinder/p/i... falling back to CSS selectors
+2026-11-20 02:48:16,083 | WARNING | Attempt 2 failed for https://www.flipkart.com/havells-eso-750-w-mixer-grinder/p/i... | Empty title or price — selectors may be broken
+2026-11-20 02:48:26,284 | WARNING | No JSON-LD found for https://www.flipkart.com/havells-eso-750-w-mixer-grinder/p/i... falling back to CSS selectors
+2026-11-20 02:48:26,324 | WARNING | Attempt 3 failed for https://www.flipkart.com/havells-eso-750-w-mixer-grinder/p/i... | Empty title or price — selectors may be broken
+2026-11-20 02:48:26,324 | ERROR | Giving up on https://www.flipkart.com/havells-eso-750-w-mixer-grinder/p/i... after 3 attempts
+2026-11-20 02:48:31,043 | INFO | Scraping [30] Nike Delta Force Vulc Sneakers Men...
+2026-11-20 02:48:36,092 | WARNING | No JSON-LD found for https://www.flipkart.com/nike-delta-force-vulc-sneakers-men/... falling back to CSS selectors
+2026-11-20 02:48:36,143 | WARNING | Attempt 1 failed for https://www.flipkart.com/nike-delta-force-vulc-sneakers-men/... | Empty title or price — selectors may be broken
+2026-11-20 02:48:50,619 | WARNING | No JSON-LD found for https://www.flipkart.com/nike-delta-force-vulc-sneakers-men/... falling back to CSS selectors
+2026-11-20 02:48:50,660 | WARNING | Attempt 2 failed for https://www.flipkart.com/nike-delta-force-vulc-sneakers-men/... | Empty title or price — selectors may be broken
+2026-11-20 02:49:04,316 | WARNING | No JSON-LD found for https://www.flipkart.com/nike-delta-force-vulc-sneakers-men/... falling back to CSS selectors
+2026-11-20 02:49:04,355 | WARNING | Attempt 3 failed for https://www.flipkart.com/nike-delta-force-vulc-sneakers-men/... | Empty title or price — selectors may be broken
+2026-11-20 02:49:04,355 | ERROR | Giving up on https://www.flipkart.com/nike-delta-force-vulc-sneakers-men/... after 3 attempts
+2026-11-20 02:49:07,731 | INFO | Scraping [31] PUMA X-Ray 2 Squa Sneakers For Women...
+2026-11-20 02:49:12,782 | WARNING | No JSON-LD found for https://www.flipkart.com/puma-x-ray-2-squa-sneakers-women/p/... falling back to CSS selectors
+2026-11-20 02:49:12,821 | WARNING | Attempt 1 failed for https://www.flipkart.com/puma-x-ray-2-squa-sneakers-women/p/... | Empty title or price — selectors may be broken
+2026-11-20 02:49:23,700 | WARNING | No JSON-LD found for https://www.flipkart.com/puma-x-ray-2-squa-sneakers-women/p/... falling back to CSS selectors
+2026-11-20 02:49:23,740 | WARNING | Attempt 2 failed for https://www.flipkart.com/puma-x-ray-2-squa-sneakers-women/p/... | Empty title or price — selectors may be broken
+2026-11-20 02:49:33,918 | WARNING | No JSON-LD found for https://www.flipkart.com/puma-x-ray-2-squa-sneakers-women/p/... falling back to CSS selectors
+2026-11-20 02:49:33,957 | WARNING | Attempt 3 failed for https://www.flipkart.com/puma-x-ray-2-squa-sneakers-women/p/... | Empty title or price — selectors may be broken
+2026-11-20 02:49:33,957 | ERROR | Giving up on https://www.flipkart.com/puma-x-ray-2-squa-sneakers-women/p/... after 3 attempts
+2026-11-20 02:49:40,421 | INFO | Scraping [32] Bata Derby For Men (Brown , 8)...
+2026-11-20 02:49:45,471 | WARNING | No JSON-LD found for https://www.flipkart.com/bata-derby-men/p/itm09d7e026c094c?p... falling back to CSS selectors
+2026-11-20 02:49:45,511 | WARNING | Attempt 1 failed for https://www.flipkart.com/bata-derby-men/p/itm09d7e026c094c?p... | Empty title or price — selectors may be broken
+2026-11-20 02:49:58,117 | WARNING | No JSON-LD found for https://www.flipkart.com/bata-derby-men/p/itm09d7e026c094c?p... falling back to CSS selectors
+2026-11-20 02:49:58,157 | WARNING | Attempt 2 failed for https://www.flipkart.com/bata-derby-men/p/itm09d7e026c094c?p... | Empty title or price — selectors may be broken
+2026-11-20 02:50:11,525 | WARNING | No JSON-LD found for https://www.flipkart.com/bata-derby-men/p/itm09d7e026c094c?p... falling back to CSS selectors
+2026-11-20 02:50:11,563 | WARNING | Attempt 3 failed for https://www.flipkart.com/bata-derby-men/p/itm09d7e026c094c?p... | Empty title or price — selectors may be broken
+2026-11-20 02:50:11,563 | ERROR | Giving up on https://www.flipkart.com/bata-derby-men/p/itm09d7e026c094c?p... after 3 attempts
+2026-11-20 02:50:16,058 | INFO | Scraping [33] RED TAPE Men Slides...
+2026-11-20 02:50:21,107 | WARNING | No JSON-LD found for https://www.flipkart.com/red-tape-men-slides/p/itm8aeeb8e354... falling back to CSS selectors
+2026-11-20 02:50:21,147 | WARNING | Attempt 1 failed for https://www.flipkart.com/red-tape-men-slides/p/itm8aeeb8e354... | Empty title or price — selectors may be broken
+2026-11-20 02:50:32,888 | WARNING | No JSON-LD found for https://www.flipkart.com/red-tape-men-slides/p/itm8aeeb8e354... falling back to CSS selectors
+2026-11-20 02:50:32,926 | WARNING | Attempt 2 failed for https://www.flipkart.com/red-tape-men-slides/p/itm8aeeb8e354... | Empty title or price — selectors may be broken
+2026-11-20 02:50:45,950 | WARNING | No JSON-LD found for https://www.flipkart.com/red-tape-men-slides/p/itm8aeeb8e354... falling back to CSS selectors
+2026-11-20 02:50:45,989 | WARNING | Attempt 3 failed for https://www.flipkart.com/red-tape-men-slides/p/itm8aeeb8e354... | Empty title or price — selectors may be broken
+2026-11-20 02:50:45,989 | ERROR | Giving up on https://www.flipkart.com/red-tape-men-slides/p/itm8aeeb8e354... after 3 attempts
+2026-11-20 02:50:49,798 | INFO | Scraping [34] Roadster Men Regular Fit Solid Mandarin ...
+2026-11-20 02:50:54,873 | WARNING | No JSON-LD found for https://www.flipkart.com/roadster-men-solid-casual-white-shi... falling back to CSS selectors
+2026-11-20 02:50:54,911 | WARNING | Attempt 1 failed for https://www.flipkart.com/roadster-men-solid-casual-white-shi... | Empty title or price — selectors may be broken
+2026-11-20 02:51:06,123 | WARNING | No JSON-LD found for https://www.flipkart.com/roadster-men-solid-casual-white-shi... falling back to CSS selectors
+2026-11-20 02:51:06,159 | WARNING | Attempt 2 failed for https://www.flipkart.com/roadster-men-solid-casual-white-shi... | Empty title or price — selectors may be broken
+2026-11-20 02:51:18,571 | WARNING | No JSON-LD found for https://www.flipkart.com/roadster-men-solid-casual-white-shi... falling back to CSS selectors
+2026-11-20 02:51:18,607 | WARNING | Attempt 3 failed for https://www.flipkart.com/roadster-men-solid-casual-white-shi... | Empty title or price — selectors may be broken
+2026-11-20 02:51:18,608 | ERROR | Giving up on https://www.flipkart.com/roadster-men-solid-casual-white-shi... after 3 attempts
+2026-11-20 02:51:22,870 | INFO | Scraping [35] BIBA Printed Pure Cotton Straight Kurta ...
+2026-11-20 02:51:27,927 | WARNING | No JSON-LD found for https://www.flipkart.com/biba-women-printed-straight-kurta/p... falling back to CSS selectors
+2026-11-20 02:51:27,964 | WARNING | Attempt 1 failed for https://www.flipkart.com/biba-women-printed-straight-kurta/p... | Empty title or price — selectors may be broken
+2026-11-20 02:51:42,955 | WARNING | No JSON-LD found for https://www.flipkart.com/biba-women-printed-straight-kurta/p... falling back to CSS selectors
+2026-11-20 02:51:42,992 | WARNING | Attempt 2 failed for https://www.flipkart.com/biba-women-printed-straight-kurta/p... | Empty title or price — selectors may be broken
+2026-11-20 02:51:57,407 | WARNING | No JSON-LD found for https://www.flipkart.com/biba-women-printed-straight-kurta/p... falling back to CSS selectors
+2026-11-20 02:51:57,444 | WARNING | Attempt 3 failed for https://www.flipkart.com/biba-women-printed-straight-kurta/p... | Empty title or price — selectors may be broken
+2026-11-20 02:51:57,444 | ERROR | Giving up on https://www.flipkart.com/biba-women-printed-straight-kurta/p... after 3 attempts
+2026-11-20 02:52:03,976 | INFO | Scraping [36] MAX Casual Regular Sleeves Printed Women...
+2026-11-20 02:52:09,023 | WARNING | No JSON-LD found for https://www.flipkart.com/max-casual-printed-women-multicolor... falling back to CSS selectors
+2026-11-20 02:52:09,061 | WARNING | Attempt 1 failed for https://www.flipkart.com/max-casual-printed-women-multicolor... | Empty title or price — selectors may be broken
+2026-11-20 02:52:22,261 | WARNING | No JSON-LD found for https://www.flipkart.com/max-casual-printed-women-multicolor... falling back to CSS selectors
+2026-11-20 02:52:22,299 | WARNING | Attempt 2 failed for https://www.flipkart.com/max-casual-printed-women-multicolor... | Empty title or price — selectors may be broken
+2026-11-20 02:52:35,446 | WARNING | No JSON-LD found for https://www.flipkart.com/max-casual-printed-women-multicolor... falling back to CSS selectors
+2026-11-20 02:52:35,483 | WARNING | Attempt 3 failed for https://www.flipkart.com/max-casual-printed-women-multicolor... | Empty title or price — selectors may be broken
+2026-11-20 02:52:35,483 | ERROR | Giving up on https://www.flipkart.com/max-casual-printed-women-multicolor... after 3 attempts
+2026-11-20 02:52:41,144 | INFO | Scraping [37] Garnier Men Oil Clear Deep Cleansing...
+2026-11-20 02:52:46,246 | WARNING | No JSON-LD found for https://www.flipkart.com/garnier-men-oil-clear-deep-cleansin... falling back to CSS selectors
+2026-11-20 02:52:46,283 | WARNING | Attempt 1 failed for https://www.flipkart.com/garnier-men-oil-clear-deep-cleansin... | Empty title or price — selectors may be broken
+2026-11-20 02:53:00,373 | WARNING | No JSON-LD found for https://www.flipkart.com/garnier-men-oil-clear-deep-cleansin... falling back to CSS selectors
+2026-11-20 02:53:00,409 | WARNING | Attempt 2 failed for https://www.flipkart.com/garnier-men-oil-clear-deep-cleansin... | Empty title or price — selectors may be broken
+2026-11-20 02:53:14,355 | WARNING | No JSON-LD found for https://www.flipkart.com/garnier-men-oil-clear-deep-cleansin... falling back to CSS selectors
+2026-11-20 02:53:14,393 | WARNING | Attempt 3 failed for https://www.flipkart.com/garnier-men-oil-clear-deep-cleansin... | Empty title or price — selectors may be broken
+2026-11-20 02:53:14,393 | ERROR | Giving up on https://www.flipkart.com/garnier-men-oil-clear-deep-cleansin... after 3 attempts
+2026-11-20 02:53:18,391 | INFO | Scraping [38] Lakm� Sunscreen - SPF 50 PA+++ Sun Exper...
+2026-11-20 02:53:24,339 | WARNING | No JSON-LD found for https://www.flipkart.com/lakm-sunscreen-spf-50-pa-sun-expert... falling back to CSS selectors
+2026-11-20 02:53:24,378 | WARNING | Attempt 1 failed for https://www.flipkart.com/lakm-sunscreen-spf-50-pa-sun-expert... | Empty title or price — selectors may be broken
+2026-11-20 02:53:38,862 | WARNING | No JSON-LD found for https://www.flipkart.com/lakm-sunscreen-spf-50-pa-sun-expert... falling back to CSS selectors
+2026-11-20 02:53:38,899 | WARNING | Attempt 2 failed for https://www.flipkart.com/lakm-sunscreen-spf-50-pa-sun-expert... | Empty title or price — selectors may be broken
+2026-11-20 02:53:51,498 | WARNING | No JSON-LD found for https://www.flipkart.com/lakm-sunscreen-spf-50-pa-sun-expert... falling back to CSS selectors
+2026-11-20 02:53:51,537 | WARNING | Attempt 3 failed for https://www.flipkart.com/lakm-sunscreen-spf-50-pa-sun-expert... | Empty title or price — selectors may be broken
+2026-11-20 02:53:51,537 | ERROR | Giving up on https://www.flipkart.com/lakm-sunscreen-spf-50-pa-sun-expert... after 3 attempts
+2026-11-20 02:53:58,111 | INFO | Scraping [39] NIVEA Cocoa Nourish, Moisturizer Body Lo...
+2026-11-20 02:54:03,996 | WARNING | No JSON-LD found for https://www.flipkart.com/nivea-cocoa-nourish-moisturizer-bod... falling back to CSS selectors
+2026-11-20 02:54:04,035 | WARNING | Attempt 1 failed for https://www.flipkart.com/nivea-cocoa-nourish-moisturizer-bod... | Empty title or price — selectors may be broken
+2026-11-20 02:54:16,564 | WARNING | No JSON-LD found for https://www.flipkart.com/nivea-cocoa-nourish-moisturizer-bod... falling back to CSS selectors
+2026-11-20 02:54:16,616 | WARNING | Attempt 2 failed for https://www.flipkart.com/nivea-cocoa-nourish-moisturizer-bod... | Empty title or price — selectors may be broken
+2026-11-20 02:54:29,293 | WARNING | No JSON-LD found for https://www.flipkart.com/nivea-cocoa-nourish-moisturizer-bod... falling back to CSS selectors
+2026-11-20 02:54:29,332 | WARNING | Attempt 3 failed for https://www.flipkart.com/nivea-cocoa-nourish-moisturizer-bod... | Empty title or price — selectors may be broken
+2026-11-20 02:54:29,332 | ERROR | Giving up on https://www.flipkart.com/nivea-cocoa-nourish-moisturizer-bod... after 3 attempts
+2026-11-20 02:54:35,581 | INFO | Scraping [40] DOVE Nourishing Triple Hydration Serum B...
+2026-11-20 02:54:41,103 | WARNING | No JSON-LD found for https://www.flipkart.com/dove-nourishing-triple-hydration-se... falling back to CSS selectors
+2026-11-20 02:54:41,141 | WARNING | Attempt 1 failed for https://www.flipkart.com/dove-nourishing-triple-hydration-se... | Empty title or price — selectors may be broken
+2026-11-20 02:54:55,506 | WARNING | No JSON-LD found for https://www.flipkart.com/dove-nourishing-triple-hydration-se... falling back to CSS selectors
+2026-11-20 02:54:55,543 | WARNING | Attempt 2 failed for https://www.flipkart.com/dove-nourishing-triple-hydration-se... | Empty title or price — selectors may be broken
+2026-11-20 02:55:07,158 | WARNING | No JSON-LD found for https://www.flipkart.com/dove-nourishing-triple-hydration-se... falling back to CSS selectors
+2026-11-20 02:55:07,196 | WARNING | Attempt 3 failed for https://www.flipkart.com/dove-nourishing-triple-hydration-se... | Empty title or price — selectors may be broken
+2026-11-20 02:55:07,196 | ERROR | Giving up on https://www.flipkart.com/dove-nourishing-triple-hydration-se... after 3 attempts
+2026-11-20 02:55:11,729 | WARNING | 40 product(s) failed to scrape this run: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
+2026-11-20 02:55:11,730 | INFO | Done. 40 rows saved to flipkart_data.csv (0 succeeded, 40 failed).
